@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <contact-header />
+    <navbar />
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -11,10 +12,12 @@
 
 <script>
   import ContactHeader from './components/ContactHeader'
+  import Navbar from './components/Navbar'
 
   export  default {
     components:  {
-      ContactHeader
+      ContactHeader,
+      Navbar
     }
   }
 </script>

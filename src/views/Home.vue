@@ -1,20 +1,20 @@
 <template>
-  <div>
-    <home-slider />
-  </div>
+    <div>
+        <home-slider/>
+        <shord-guide />
+    </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-import HomeSlider from '../components/HomeSlider.vue'
+  import HomeSlider from '@/components/HomeSlider.vue'
+  import ShordGuide from '@/components/ShortGuide.vue'
 
-export default {
-  name: 'home',
-  components: {
-    HelloWorld,
-    HomeSlider
+  export default {
+    name: 'home',
+    components: {
+      ShordGuide,
+      HomeSlider
+    }
   }
-}
 </script>
 

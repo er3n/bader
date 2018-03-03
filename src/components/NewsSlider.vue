@@ -1,10 +1,14 @@
 <template>
     <div class="container mt-5">
         <div class="d-flex justify-content-center">
-            <h1 class="title">Güncel Haberler</h1>
+            <h1 class="title">GÜNCEL HABERLER</h1>
+
+        </div>
+        <div class="d-flex justify-content-center">
+            <a class="title" href="#">Bütün haberlere buradan ulaşabilirsiniz</a>
         </div>
 
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-sm-4">
                 <div class="card" style="padding: 6px">
                     <img class="card-img-top" src="http://via.placeholder.com/286x180" alt="Card image cap">

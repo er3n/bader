@@ -17,13 +17,16 @@
                         <a class="nav-link" href="/mevzuat">MEVZUAT</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/mevzuat">ARABULUCULUK</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="/faaliyetlerimiz">FAALİYETLERİMİZ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/uyelerimiz">ÜYELERİMİZ</a>
+                        <a class="nav-link" href="/uyelerimiz">ÜYELİK</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/sss">S.S.S</a>
+                        <a class="nav-link" href="/sss">DUYURULAR</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/iletisim">İLETİŞİM</a>

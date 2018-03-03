@@ -57,7 +57,7 @@
     }
 
     .nav-link {
-        font-weight: 600;
+
         color: black !important;
 
         &:hover {

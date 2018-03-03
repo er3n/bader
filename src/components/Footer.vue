@@ -41,12 +41,18 @@
                 </ul>
             </div>
             <div class="col-12 col-md-4">
+                <small class="text-white">Eposta bildirim listemize kayıt olmak için</small>
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Email Adresiniz" >
                     <span class="input-group-addon bg-white text-dark" style="vertical-align: middle" >
                         <span class="pt-2">
                         <icon name="paper-plane" scale="2.2" class="pt-2"/></span>
                     </span>
+                </div>
+                <div class="social float-md-right">
+                    <a href="https://www.instagram.com/bamarabuluculukmerkezi/"><icon name="instagram" scale="2" /></a>
+                    <a href="https://www.facebook.com/BAM-Ba%C4%9F%C4%B1ms%C4%B1z-Arabuluculuk-ve-Alternatif-Uyu%C5%9Fmazl%C4%B1k-%C3%87%C3%B6z%C3%BCm-Merkezi-125976598091885/" ><icon name="facebook"  scale="2" /></a>
+                    <a href="https://twitter.com/bamarabuluculuk"><icon name="twitter" scale="2" /></a>
                 </div>
             </div>
         </div>
@@ -77,6 +83,15 @@
                 background-color: lighten($basecolor, 20) !important;
                 color: white !important;
             }
+        }
+
+        .social {
+            margin-top: 40px !important;
+        }
+
+        .social > * {
+            color: white;
+            margin: 10px
         }
 
     }

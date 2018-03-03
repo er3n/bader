@@ -47,9 +47,9 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
     .navbar {
-        -webkit-box-shadow: 0 0px 6px -6px #999;
-        -moz-box-shadow: 0 8px 6px -6px #999;
-        box-shadow: 0 0px 6px 0px #999;
+        -webkit-box-shadow: 0 0px 12px -6px #999;
+        -moz-box-shadow: 0 8px 12px -6px #999;
+        box-shadow: 0 0px 12px 0px #999;
 
         /* the rest of your styling */
     }

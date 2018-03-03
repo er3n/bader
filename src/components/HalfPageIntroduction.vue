@@ -1,5 +1,5 @@
 <template>
-    <div class="pageRoot container-fluid" style="min-height: 400px">
+    <div class="pageRoot container-fluid mt-5" style="min-height: 400px">
         <div class="container">
             <div class="row ">
                 <div class="col-md-6 text-white pt-5">

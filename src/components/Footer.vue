@@ -55,6 +55,9 @@
                     <a href="https://twitter.com/bamarabuluculuk"><icon name="twitter" scale="2" /></a>
                 </div>
             </div>
+            <div class="col-12 text-white" style="text-align: center">
+                <small>Bütün hakları saklıdır © {{ new Date().getFullYear() }} - BADER Bağımsız Arabulucular Derneği</small>
+            </div>
         </div>
     </footer>
     </div>
@@ -86,7 +89,7 @@
         }
 
         .social {
-            margin-top: 40px !important;
+            margin-top: 10px !important;
         }
 
         .social > * {

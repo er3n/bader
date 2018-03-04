@@ -11,6 +11,8 @@
     "bootstrap": "^4.0.0",
     "vue": "^2.5.13",
     "vue-awesome": "^2.3.4",
+    "vue-click-outside": "^1.0.7",
+    "vue-l-carousel": "^1.0.1",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

@@ -1,14 +1,19 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" v-on:click="showNavbarCliked" >
         <div class="container">
             <a class="navbar-brand" href="/">
-                <img src="./../assets/logo.png" class="d-inline-block align-top" height="50px" alt="Bader - Bağımsız arabulucular derneği">
+                <img src="./../assets/logo.png" class="d-inline-block align-top" height="50px"
+                     alt="Bader - Bağımsız arabulucular derneği">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"
+                    aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation"
+                    v-click-outside="hideNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarMenuItems">
+
+            <div :class="{'collapse': true, 'navbar-collapse':true, show: showNavbar}"
+                 id="navbarMenuItems">
                 <ul class="navbar-nav  ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="/hakkimizda">HAKKIMIZDA</a>
@@ -39,8 +44,20 @@
 
 <script>
   export default {
-    name: 'Navbar'
-
+    name: 'Navbar',
+    data () {
+      return {
+        showNavbar: false
+      }
+    },
+    methods: {
+      showNavbarCliked: function () {
+        this.showNavbar = !this.showNavbar
+      },
+      hideNavbar: function () {
+        this.showNavbar = false
+      }
+    }
   }
 </script>
 

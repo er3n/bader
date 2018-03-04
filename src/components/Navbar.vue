@@ -21,11 +21,12 @@
                             MEVZUAT
                         </a>
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'MEVZUAT'" >
-                            <a class="dropdown-item" href="http://www.mevzuat.gov.tr/MevzuatMetin/1.5.6325.pdf" target="_blank">KANUN</a>
-                            <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/HukukUyusmazliklarindaArabuluculukKanunuYonetmeligi.pdf" target="_blank">YÖNETMELİK</a>
-                            <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/tarife.html" target="_blank">ÜCRET TARİFESİ</a>
-                            <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/etik_kurallar.html" target="_blank">ETİK KURALLAR</a>
-                            <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/duyurular/2017/kasim/ishukuku/siteuzmanlik.pdf" target="_blank">İŞ HUKUKUNDA ARABULUCULUK</a>
+                            <a class="dropdown-item" href="http://www.mevzuat.gov.tr/MevzuatMetin/1.5.6325.pdf" target="_blank" v-on:click="hideNavbar">KANUN</a>
+                            <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/HukukUyusmazliklarindaArabuluculukKanunuYonetmeligi.pdf" target="_blank" v-on:click="hideNavbar">YÖNETMELİK</a>
+                            <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/tarife.html" target="_blank" v-on:click="hideNavbar">ÜCRET TARİFESİ</a>
+                            <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/etik_kurallar.html" target="_blank" v-on:click="hideNavbar">ETİK KURALLAR</a>
+                            <a class="dropdown-item" href="http://www.mevzuat.gov.tr/MevzuatMetin/1.5.7036.pdf" target="_blank" v-on:click="hideNavbar">İŞ MAHKEMELERİ KANUNU</a>
+                            <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/duyurular/2017/kasim/ishukuku/siteuzmanlik.pdf" target="_blank" v-on:click="hideNavbar">İŞ HUKUKUNDA U. ARABULUCULUK</a>
                         </div>
                     </li>
                     <li class="nav-item">

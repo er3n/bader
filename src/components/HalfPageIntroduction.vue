@@ -29,12 +29,19 @@
 
     $main_font_color: #385EA0;
 
-    .pageRoot {
+    @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-        background: #2A3244 url(../assets/halfpageimage.png);
-        background-size:     cover;
-        background-repeat:   no-repeat;
-        background-position: center center;
+    .pageRoot {
+        background: #2A3244
+    }
+
+    @include media-breakpoint-up(sm) {
+        .pageRoot {
+            background: #2A3244 url(../assets/halfpageimage.png);
+            background-size:     cover;
+            background-repeat:   no-repeat;
+            background-position: center center;
+        }
     }
 
 </style>

@@ -8,38 +8,35 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"
                     aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation"
                     v-click-outside="hideNavbar">
-                <span class="navbar-toggler-icon"></span>
+                <span :class="{'navbar-toggler-icon': true, 'navToggleVisible':showNavbar, 'changeOpacity': true}"/>
             </button>
 
-
-            <transition name="fade">
-                <div :class="{'collapse': true, 'navbar-collapse':true, show: true}"
-                     id="navbarMenuItems" v-if="showNavbar">
-                    <ul class="navbar-nav  ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/hakkimizda">HAKKIMIZDA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/mevzuat">MEVZUAT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/mevzuat">ARABULUCULUK</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/faaliyetlerimiz">FAALİYETLERİMİZ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/uyelerimiz">ÜYELİK</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/sss">DUYURULAR</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/iletisim">İLETİŞİM</a>
-                        </li>
-                    </ul>
-                </div>
-            </transition>
+            <div :class="{'collapse': true, 'navbar-collapse':true, show: showNavbar}"
+                 id="navbarMenuItems">
+                <ul class="navbar-nav  ml-auto" >
+                    <li class="nav-item">
+                        <a class="nav-link" href="/hakkimizda">HAKKIMIZDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/mevzuat">MEVZUAT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/mevzuat">ARABULUCULUK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/faaliyetlerimiz">FAALİYETLERİMİZ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/uyelerimiz">ÜYELİK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sss">DUYURULAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/iletisim">İLETİŞİM</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 </template>
@@ -87,6 +84,16 @@
             background-color: #276BA6;
         }
 
+    }
+
+    .navbar-toggler-icon {
+        transition: transform 0.3s ease-in;
+    }
+
+    .navToggleVisible {
+        -ms-transform: rotate(-90deg); /* IE 9 */
+        -webkit-transform: rotate(-90deg); /* Safari 3-8 */
+        transform: rotate(-90deg);
     }
 
 </style>

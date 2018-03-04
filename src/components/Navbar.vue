@@ -1,13 +1,12 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white" v-on:click="showNavbarCliked">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white"  v-click-outside="hideNavbar">
         <div class="container">
             <a class="navbar-brand" href="/">
                 <img src="./../assets/logo.png" class="d-inline-block align-top" height="50px"
                      alt="Bader - Bağımsız arabulucular derneği">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"
-                    aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation"
-                    v-click-outside="hideNavbar">
+                    aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation" v-on:click="showNavbarCliked">
                 <span :class="{'navbar-toggler-icon': true, 'navToggleVisible':showNavbar, 'changeOpacity': true}"/>
             </button>
 
@@ -17,8 +16,17 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/hakkimizda">HAKKIMIZDA</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/mevzuat">MEVZUAT</a>
+                    <li class="nav-item dropdown" >
+                        <a class="nav-link dropdown-toggle" href="#" v-on:click="selectSubMenu('MEVZUAT')"  >
+                            MEVZUAT
+                        </a>
+                        <div class="dropdown-menu show" v-if="showSubMenuKey == 'MEVZUAT'" >
+                            <a class="dropdown-item" href="http://www.mevzuat.gov.tr/MevzuatMetin/1.5.6325.pdf" target="_blank">KANUN</a>
+                            <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/HukukUyusmazliklarindaArabuluculukKanunuYonetmeligi.pdf" target="_blank">YÖNETMELİK</a>
+                            <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/tarife.html" target="_blank">ÜCRET TARİFESİ</a>
+                            <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/etik_kurallar.html" target="_blank">ETİK KURALLAR</a>
+                            <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/duyurular/2017/kasim/ishukuku/siteuzmanlik.pdf" target="_blank">İŞ HUKUKUNDA ARABULUCULUK</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/mevzuat">ARABULUCULUK</a>
@@ -35,6 +43,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/iletisim">İLETİŞİM</a>
                     </li>
+
                 </ul>
             </div>
         </div>
@@ -46,7 +55,8 @@
     name: 'Navbar',
     data () {
       return {
-        showNavbar: false
+        showNavbar: false,
+        showSubMenuKey: undefined
       }
     },
     methods: {
@@ -55,7 +65,16 @@
       },
       hideNavbar: function () {
         this.showNavbar = false
-      }
+        this.showSubMenuKey = false
+      },
+      selectSubMenu: function(key) {
+        if(this.showSubMenuKey) {
+          this.showSubMenuKey = undefined
+        } else {
+          this.showSubMenuKey = key
+        }
+      },
+
     }
   }
 </script>

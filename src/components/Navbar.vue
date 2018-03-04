@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white" v-on:click="showNavbarCliked" >
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" v-on:click="showNavbarCliked">
         <div class="container">
             <a class="navbar-brand" href="/">
                 <img src="./../assets/logo.png" class="d-inline-block align-top" height="50px"
@@ -12,32 +12,34 @@
             </button>
 
 
-            <div :class="{'collapse': true, 'navbar-collapse':true, show: showNavbar}"
-                 id="navbarMenuItems">
-                <ul class="navbar-nav  ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/hakkimizda">HAKKIMIZDA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/mevzuat">MEVZUAT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/mevzuat">ARABULUCULUK</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/faaliyetlerimiz">FAALİYETLERİMİZ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/uyelerimiz">ÜYELİK</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/sss">DUYURULAR</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/iletisim">İLETİŞİM</a>
-                    </li>
-                </ul>
-            </div>
+            <transition name="fade">
+                <div :class="{'collapse': true, 'navbar-collapse':true, show: true}"
+                     id="navbarMenuItems" v-if="showNavbar">
+                    <ul class="navbar-nav  ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/hakkimizda">HAKKIMIZDA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/mevzuat">MEVZUAT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/mevzuat">ARABULUCULUK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/faaliyetlerimiz">FAALİYETLERİMİZ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/uyelerimiz">ÜYELİK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/sss">DUYURULAR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/iletisim">İLETİŞİM</a>
+                        </li>
+                    </ul>
+                </div>
+            </transition>
         </div>
     </nav>
 </template>

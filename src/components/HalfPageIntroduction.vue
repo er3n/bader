@@ -37,7 +37,7 @@
 
     @include media-breakpoint-up(sm) {
         .pageRoot {
-            background: #2A3244 url(../assets/halfpageimage.png);
+            background: #2A3244 url(../assets/halfpageimage.jpg);
             background-size:     cover;
             background-repeat:   no-repeat;
             background-position: center center;

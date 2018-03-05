@@ -2,7 +2,7 @@
     <div class="row">
 
         <div class="col-md-4">
-            <img :src="imagePath()" class="img-fluid"/>
+            <img :src="imagePath()" class="img-fluid" style="max-width: 150px;"/>
         </div>
 
         <div class="col-md-8">

@@ -79,6 +79,17 @@
 
                     </personal-info>
 
+                    <hr>
+
+                    <personal-info title="Av.Arb.Ayşe Eda Günday" url="eda_480-219x300">
+                        İlk öğretimini Ankara Ahmet Vefik Paşa İlkokulunda, orta öğretimini Ankara Namık Kemal
+                        Ortaokulunda, lise öğretimini Ankara Kız Lisesinde tamamladı.
+                        1988 yılında Ankara Üniversitesi hukuk Fakültesinden mezun oldu.
+                        1989 yılında stajına tamamlayarak Ankara Barosu’na 9547 sicil numarası ile kaydoldu.
+                        2015 yılında Hacettepe Üniversitesinde “ Hukuk Uyuşmazlıklarında Arabuluculuk Eğitimi “ ne katıldı. Aynı yıl Adalet Bakanlığı’nın açmış olduğu yazılı ve uygulamalı sınavlarında başarılı olarak 2942 sicil numarası ile Adalet Bakanlığı Arabulucular Listesine kayıt oldu. 2017 yılında Ankara Üniversitesi İş Hukuku Uyuşmazlıklarında Zorunlu Arabuluculuk Uzmanlık Eğitimi aldı. BAĞIMSIZ ARABULUCULUK VE ALTERNATİF ÇÖZÜM MERKEZİ ve BAĞIMSIZ ARABULUCULAR DERNEGİ Kurucu üyesi. Ankara Üniversitesi Hukuk Fakültesi tarafından düzenlenen İş Hukuku Zorunlu Uzmanlık Eğitim Programını tamamlamıştır.
+
+                    </personal-info>
+
 
                 </div>
 

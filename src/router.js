@@ -14,7 +14,7 @@ export default new Router({
       component: Home
     },
     {
-      path: '/about',
+      path: '/hakkimizda/:id',
       name: 'about',
       component: About
     }

@@ -13,8 +13,14 @@
             <div :class="{'collapse': true, 'navbar-collapse':true, show: showNavbar}"
                  id="navbarMenuItems">
                 <ul class="navbar-nav  ml-auto" >
-                    <li class="nav-item">
-                        <a class="nav-link" href="/hakkimizda">HAKKIMIZDA</a>
+                    <li class="nav-item dropdown" >
+                        <a class="nav-link dropdown-toggle" href="#" v-on:click="selectSubMenu('HAKKIMIZDA')"  >
+                            HAKKIMIZDA
+                        </a>
+                        <div class="dropdown-menu show" v-if="showSubMenuKey == 'HAKKIMIZDA'" >
+                            <a class="dropdown-item" href="/hakkimizda/amac-ilke-deger" v-on:click="hideNavbar">AMAÇ İLKE VE DEĞERLERİMİZ</a>
+                            <a class="dropdown-item" href="/hakkimizda/yonetim-kurulu" v-on:click="hideNavbar">YÖNETİM KURULU</a>
+                        </div>
                     </li>
                     <li class="nav-item dropdown" >
                         <a class="nav-link dropdown-toggle" href="#" v-on:click="selectSubMenu('MEVZUAT')"  >
@@ -69,7 +75,7 @@
         this.showSubMenuKey = false
       },
       selectSubMenu: function(key) {
-        if(this.showSubMenuKey) {
+        if(this.showSubMenuKey && key === this.showSubMenuKey ) {
           this.showSubMenuKey = undefined
         } else {
           this.showSubMenuKey = key

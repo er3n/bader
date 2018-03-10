@@ -4,7 +4,10 @@ import Home from './views/Home.vue'
 import About from './views/about/About.vue'
 import Directors from './views/about/Directors.vue'
 import Purpose from './views/about/Purpose.vue'
-import Faq from './views/Faq.vue'
+import Mediation from './views/mediation/Mediation.vue'
+import WhatMediation from './views/mediation/WhatMediation'
+import Faq from './views/mediation/Faq'
+import MediationLibrary from './views/mediation/MediationLibrary'
 
 Vue.use(Router)
 
@@ -31,9 +34,22 @@ export default new Router({
       ]
     },
     {
-      path: '/sss',
-      name: 'faq',
-      component: Faq
+      path: '/arabuluculuk',
+      component: Mediation,
+      children: [
+        {
+          path: 'arabuluculuk-nedir',
+          component: WhatMediation
+        },
+        {
+          path: 'sss',
+          component: Faq
+        },
+        {
+          path: 'arabuluculuk-kitapligi',
+          component: MediationLibrary
+        }
+      ]
     }
   ]
 })

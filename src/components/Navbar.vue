@@ -40,9 +40,9 @@
                             ARABULUCULUK
                         </a>
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'ARABULUCULUK'" >
-                            <a class="dropdown-item" href="/nedir" v-on:click="hideNavbar">ARABULUCULUK NEDİR?</a>
-                            <a class="dropdown-item" href="/sss" v-on:click="hideNavbar">SIK SORULAN SORULAR</a>
-                            <a class="dropdown-item" href="/kitaplik" v-on:click="hideNavbar">ARABULUCULUK KİTAPLIĞI</a>
+                            <a class="dropdown-item" href="/arabuluculuk/arabuluculuk-nedir" v-on:click="hideNavbar">ARABULUCULUK NEDİR?</a>
+                            <a class="dropdown-item" href="/arabuluculuk/sss" v-on:click="hideNavbar">SIK SORULAN SORULAR</a>
+                            <a class="dropdown-item" href="/arabuluculuk/arabuluculuk-kitapligi" v-on:click="hideNavbar">ARABULUCULUK KİTAPLIĞI</a>
                         </div>
                     </li>
                     <li class="nav-item">

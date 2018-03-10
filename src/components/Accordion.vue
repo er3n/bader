@@ -17,6 +17,11 @@
                     <ul v-if="value.subContent" v-for="(subContent, subContentKey) in value.subContents" v-bind:key="subContentKey" class="pt-2">
                         <li>{{subContent}}</li>
                     </ul>
+
+                    <a :href="value.link" target="_blank" v-if="value.link" class="pt-2">
+                        {{value.link}}
+                    </a>
+
                 </div>
                 </div>
             </div>
@@ -27,11 +32,11 @@
 
 <script>
 export default {
-  props: ['items'],
+  props: ["items"],
   data() {
-      return {
-          selectedItem: -1
-      }
+    return {
+      selectedItem: 0
+    };
   },
   methods: {
     selectItem: function(selectedId) {

@@ -1,0 +1,17 @@
+{
+    "title": "Arabuluculuk",
+    "menus": [
+        {
+            "title": "Arabuluculuk Nedir?",
+            "link": "/arabuluculuk/arabuluculuk-nedir"
+        },
+        {
+            "title": "Sık Sorulan Sorular",
+            "link": "/arabuluculuk/sss"
+        },
+        {
+            "title": "Arabuluculuk Kitaplığı",
+            "link": "/arabuluculuk/arabuluculuk-kitapligi"
+        }
+    ]
+}

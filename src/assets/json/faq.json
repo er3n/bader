@@ -1,0 +1,43 @@
+[
+    {
+        "title": "İş Uyuşmazlıklarında Dava Şartı Olarak Arabuluculuk Nedir?",
+        "content": "1 Ocak 2018 tarihinden itibaren işçi-işveren uyuşmazlıklarında dava açmak isteyen tarafın öncelikle arabuluculuk yoluna gitmesi gerekmektedir. Arabuluculuğa başvurulmadan dava açılması durumunda, dava, dava şartı yokluğundan reddedilecektir."
+    },
+    {
+        "title": "Hangi Uyuşmazlıklar Dava Şartı Olarak Arabuluculuk Kapsamına Girer?",
+        "content": "Bireysel veya toplu iş sözleşmesine dayanan işçi ve işveren alacağı ve tazminatı (kıdem tazminatı, ihbar tazminatı, kötü niyet tazminatı, fazla mesai ücreti, hafta tatili ücreti, yıllık izin ücreti vb.) ile işe iade taleplerinde dava açılmadan önce arabulucuya başvurulmuş olması dava şartı olacaktır. Ancak iş kazası veya meslek hastalığından kaynaklanan maddi ve manevi tazminat davaları ile bunlarla ilgili tespit ve itiraz durumları bu kapsamda değildir."
+    },
+    {
+        "title": "Başvuru Nereye Yapılır?",
+        "content": "Başvuru adliyelerde bulunan arabuluculuk bürolarına yapılır. Arabuluculuk bürosu olmayan yerlerde arabuluculuk bürosu sıfatıyla görevlendirilen sulh hukuk mahkemesi yazı işleri müdürlüğü tarafından işlemler gerçekleştirilir."
+    },
+    {
+        "title": "Arabulucu Nasıl Atanır, Taraflar İstediği Arabulucuyu Seçebilir mi?",
+        "content": "Arabulucu, adliyelerdeki arabuluculuk bürolarındaki görevli personel tarafından sicile kayıtlı arabulucular listesinden atanacaktır. Ancak tarafların listede yer alan herhangi bir arabulucu üzerinde anlaşmaları halinde bu arabulucu görevlendirilir."
+    },
+    {
+        "title": "Dava Şartı Olarak Arabuluculukta Arabulucu Başvuruyu En Fazla Ne Kadar Süre İçerisinde Sonuçlandırır?",
+        "content": "Arabulucu, yapılan başvuruyu görevlendirildiği tarihten itibaren üç hafta içinde sonuçlandırır. Bu süre zorunlu hâllerde arabulucu tarafından en fazla bir hafta uzatılabilir."
+    },
+    {
+        "title": "Arabuluculuğa Başvuru Ücretli midir?",
+        "content": "Arabuluculuk bürosuna başvuruda herhangi bir ücret alınmaz. Taraflar arabuluculuk görüşmelerinde anlaşamazlarsa 2 saatlik ücret Adalet Bakanlığı bütçesinden karşılanır. Anlaşma durumunda ücret, aksi kararlaştırılmadıkça taraflarca eşit şekilde ödenir. Ancak uygulamada sıklıkla görüldüğü üzere, işveren tarafından da arabuluculuk ücretinin tamamı ödenebilir. Ücret, Arabuluculuk Asgari Ücret Tarifesine göre belirlenir. Arabuluculuk Ücret Tarifesi, Arabuluculuk Daire Başkanlığının resmi web sitesinde yer almaktadır.",
+        "link": "http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/tarife.html"
+    },
+    {
+        "title": "Arabuluculuk Görüşmelerine Kimler Katılır?",
+        "content": "Arabuluculuk görüşmelerine taraflar bizzat ya da varsa avukatları aracılığıyla katılabilirler. Tarafın vekili aracılığı ile görüşmelere katılmak istemesi durumunda vekaletnamede arabuluculukla ilgili özel bir yet ki gerekir."
+    },
+    {
+        "title": "Karşı Taraf Görüşmelere Gelmezse Ne Olur?",
+        "content": "İlk toplantıya mazeretsiz bir şekilde katılmayan taraf dava açıldığı taktirde, bu taraf dava sonucunda kısmen ya da tamamen haklı çıksa dahi yargılama giderlerinin tamamından sorumlu tutulur. Ayrıca, bu taraf lehine vekalet ücretine hükmedilmez."
+    },
+    {
+        "title": "Anlaşma Sağlanamazsa Süreç Nasıl Devam Eder?",
+        "content": "Arabuluculuk sürecinde taraflar anlaşma sağlayamazsa mahkemeye başvurarak dava açabilirler."
+    },
+    {
+        "title": "Arabuluculuk Ücretini Karşılayamayacak Durumda Olan Taraf Nereye Başvurmalıdır?",
+        "content": "Arabuluculuk ücretini karşılamak için adli yardıma ihtiyaç duyan taraf arabuluculuk bürosunun bulunduğu yerdeki sulh hukuk hâkiminin kararıyla adli yardımdan yararlanabilecektir."
+    }
+]

@@ -14,7 +14,7 @@
                  id="navbarMenuItems">
                 <ul class="navbar-nav  ml-auto" >
                     <li class="nav-item dropdown" >
-                        <a class="nav-link dropdown-toggle" href="#" v-on:click="selectSubMenu('HAKKIMIZDA')"  >
+                        <a class="nav-link dropdown-toggle" href="#"  v-on:click.prevent="selectSubMenu('HAKKIMIZDA')"  >
                             HAKKIMIZDA
                         </a>
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'HAKKIMIZDA'" >
@@ -23,7 +23,7 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown" >
-                        <a class="nav-link dropdown-toggle" href="#" v-on:click="selectSubMenu('MEVZUAT')"  >
+                        <a class="nav-link dropdown-toggle"  href="#" v-on:click.prevent="selectSubMenu('MEVZUAT')"  >
                             MEVZUAT
                         </a>
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'MEVZUAT'" >
@@ -35,17 +35,21 @@
                             <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/duyurular/2017/kasim/ishukuku/siteuzmanlik.pdf" target="_blank" v-on:click="hideNavbar">İŞ HUKUKUNDA U. ARABULUCULUK</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/mevzuat">ARABULUCULUK</a>
+                    <li class="nav-item dropdown" >
+                        <a class="nav-link dropdown-toggle"  href="#" v-on:click.prevent="selectSubMenu('ARABULUCULUK')"  >
+                            ARABULUCULUK
+                        </a>
+                        <div class="dropdown-menu show" v-if="showSubMenuKey == 'ARABULUCULUK'" >
+                            <a class="dropdown-item" href="/nedir" v-on:click="hideNavbar">ARABULUCULUK NEDİR?</a>
+                            <a class="dropdown-item" href="/sss" v-on:click="hideNavbar">SIK SORULAN SORULAR</a>
+                            <a class="dropdown-item" href="/kitaplik" v-on:click="hideNavbar">ARABULUCULUK KİTAPLIĞI</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/faaliyetlerimiz">FAALİYETLERİMİZ</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/uyelerimiz">ÜYELİK</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/sss">DUYURULAR</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/iletisim">İLETİŞİM</a>
@@ -58,68 +62,64 @@
 </template>
 
 <script>
-  export default {
-    name: 'Navbar',
-    data () {
-      return {
-        showNavbar: false,
-        showSubMenuKey: undefined
-      }
+export default {
+  name: "Navbar",
+  data() {
+    return {
+      showNavbar: false,
+      showSubMenuKey: undefined
+    };
+  },
+  methods: {
+    showNavbarCliked: function() {
+      this.showNavbar = !this.showNavbar;
     },
-    methods: {
-      showNavbarCliked: function () {
-        this.showNavbar = !this.showNavbar
-      },
-      hideNavbar: function () {
-        this.showNavbar = false
-        this.showSubMenuKey = false
-      },
-      selectSubMenu: function(key) {
-        if(this.showSubMenuKey && key === this.showSubMenuKey ) {
-          this.showSubMenuKey = undefined
-        } else {
-          this.showSubMenuKey = key
-        }
-      },
-
+    hideNavbar: function() {
+      this.showNavbar = false;
+      this.showSubMenuKey = false;
+    },
+    selectSubMenu: function(key) {
+      if (this.showSubMenuKey && key === this.showSubMenuKey) {
+        this.showSubMenuKey = undefined;
+      } else {
+        this.showSubMenuKey = key;
+      }
     }
   }
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-    .navbar {
-        -webkit-box-shadow: 0 0px 12px -6px #999;
-        -moz-box-shadow: 0 8px 12px -6px #999;
-        box-shadow: 0 0px 12px 0px #999;
+.navbar {
+  -webkit-box-shadow: 0 0px 12px -6px #999;
+  -moz-box-shadow: 0 8px 12px -6px #999;
+  box-shadow: 0 0px 12px 0px #999;
 
-        /* the rest of your styling */
-    }
+  /* the rest of your styling */
+}
 
-    .navbar-light {
-        background-color: #fff;
-        color: white
-    }
+.navbar-light {
+  background-color: #fff;
+  color: white;
+}
 
-    .nav-link {
+.nav-link {
+  color: black !important;
 
-        color: black !important;
+  &:hover {
+    color: white !important;
+    background-color: #276ba6;
+  }
+}
 
-        &:hover {
-            color: white !important;
-            background-color: #276BA6;
-        }
+.navbar-toggler-icon {
+  transition: transform 0.3s ease-in;
+}
 
-    }
-
-    .navbar-toggler-icon {
-        transition: transform 0.3s ease-in;
-    }
-
-    .navToggleVisible {
-        -ms-transform: rotate(-90deg); /* IE 9 */
-        -webkit-transform: rotate(-90deg); /* Safari 3-8 */
-        transform: rotate(-90deg);
-    }
-
+.navToggleVisible {
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Safari 3-8 */
+  transform: rotate(-90deg);
+}
 </style>

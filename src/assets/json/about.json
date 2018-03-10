@@ -1,0 +1,13 @@
+{
+    "title": "Hakkımızda",
+    "menus": [
+        {
+            "title": "Amaç İlke ve Değerlerimiz",
+            "link": "/hakkimizda/amac-ilke-deger"
+        },
+        {
+            "title": "Yönetim Kurulu",
+            "link": "/hakkimizda/yonetim-kurulu"
+        }
+    ]
+}

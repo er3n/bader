@@ -19,7 +19,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - Arabulucu
+                        Avukat - U. Arabulucu
                     </li>
                     <li class="list-group-item">
                         Arb. Sicil No: 1211
@@ -44,35 +44,10 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - Arabulucu
+                        Avukat - U. Arabulucu
                     </li>
                     <li class="list-group-item">
                         Arb. Sicil No: 2942
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-12 col-md-4">
-        <div class="card">
-            <img class="card-img-bottom" src="../../assets/mehmet.jpg" alt="Card image cap" >
-            <div class="card-body mx-auto">
-                <h5 class="card-title">Mehmet Erşahin</h5>
-                <hr>
-                
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        Başkan Yardımcısı
-                    </li>
-                    <li class="list-group-item">
-                        Ankara Ünv. Hukuk Fak.
-                    </li>
-                    <li class="list-group-item">
-                        Avukat - Arabulucu
-                    </li>
-                    <li class="list-group-item">
-                        Arb. Sicil No: 1782
                     </li>
                 </ul>
             </div>

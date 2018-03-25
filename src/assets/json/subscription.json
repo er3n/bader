@@ -1,0 +1,9 @@
+{
+    "title": "Üyelik",
+    "menus": [
+        {
+            "title": "Üyelik Koşulları",
+            "link": "/uyelik/kosullar"
+        }
+    ]
+}

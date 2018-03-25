@@ -8,6 +8,8 @@ import Mediation from './views/mediation/Mediation.vue'
 import WhatMediation from './views/mediation/WhatMediation'
 import Faq from './views/mediation/Faq'
 import MediationLibrary from './views/mediation/MediationLibrary'
+import SubscriptionTerms from './views/subscription/SubscriptionTerms'
+import Subscription from './views/subscription/Subscription'
 
 Vue.use(Router)
 
@@ -48,6 +50,16 @@ export default new Router({
         {
           path: 'arabuluculuk-kitapligi',
           component: MediationLibrary
+        }
+      ]
+    },
+    {
+      path: '/uyelik',
+      component: Subscription,
+      children: [
+        {
+          path: 'kosullar',
+          component: SubscriptionTerms
         }
       ]
     }

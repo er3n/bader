@@ -26,8 +26,11 @@ export default {
 </script>
 
 
-<style lang="scss" scoped>
-.list-group-item:hover {
-  background-color: #f6f6f8;
+<style lang="scss">
+
+
+.close {
+    color: white !important
 }
+
 </style>

@@ -50,8 +50,8 @@
                             FAALİYETLERİMİZ
                         </a>
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'FAALIYETLERIMIZ'" >
-                            <a class="dropdown-item" href="#/arabuluculuk/arabuluculuk-nedir" v-on:click="hideNavbar">ETKİNLİKLERİMİZ</a>
-                            <a class="dropdown-item" href="#/arabuluculuk/sss" v-on:click="hideNavbar">ZİYARETLERİMİZ</a>
+                            <a class="dropdown-item" href="#/faaliyetlerimiz/etkinlik" v-on:click="hideNavbar">ETKİNLİKLERİMİZ</a>
+                            <a class="dropdown-item" href="#/faaliyetlerimiz/ziyaret" v-on:click="hideNavbar">ZİYARETLERİMİZ</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown" >

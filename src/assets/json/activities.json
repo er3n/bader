@@ -1,0 +1,13 @@
+{
+    "title": "Faaliyetlerimiz",
+    "menus": [
+        {
+            "title": "Etkinliklerimiz",
+            "link": "/faaliyetlerimiz/etkinlik"
+        },
+        {
+            "title": "Ziyaretlerimiz",
+            "link": "/faaliyetlerimiz/ziyaret"
+        }
+    ]
+}

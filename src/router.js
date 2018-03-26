@@ -10,6 +10,9 @@ import Faq from './views/mediation/Faq'
 import MediationLibrary from './views/mediation/MediationLibrary'
 import SubscriptionTerms from './views/subscription/SubscriptionTerms'
 import Subscription from './views/subscription/Subscription'
+import Activities from './views/activities/Activities'
+import Visits from './views/activities/Visits'
+import Seminars from './views/activities/Seminars'
 
 Vue.use(Router)
 
@@ -60,6 +63,20 @@ export default new Router({
         {
           path: 'kosullar',
           component: SubscriptionTerms
+        }
+      ]
+    },
+    {
+      path: '/faaliyetlerimiz',
+      component: Activities,
+      children: [
+        {
+          path: 'ziyaret',
+          component: Visits
+        },
+        {
+          path: 'etkinlik',
+          component: Seminars
         }
       ]
     }

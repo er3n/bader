@@ -2,7 +2,7 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-                <img class="d-block img-fluid" src="../assets/handshake.jpg" alt="First slide">
+                <img class="d-block img-fluid" v-lazy="handshakeImg" alt="First slide" >
                 <div class="container">
                     <div class="carousel-caption d-none d-md-block" id="wrapper">
                     <h1 class="">Arabuluculuk</h1>
@@ -17,8 +17,16 @@
 </template>
 
 <script>
+
+  import HandshakeImg from '../assets/handshake.jpg'
+
   export default {
-    name: 'HomeSlider'
+    name: 'HomeSlider',
+    data() {
+        return {
+            handshakeImg: HandshakeImg
+        }
+    }
 
   }
 </script>

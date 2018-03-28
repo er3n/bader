@@ -4,7 +4,7 @@
         <hr>
 
 <div class="row">
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-4 mt-1">
         <div class="card">
             <img class="card-img-bottom" v-lazy="'/img/person/dursunyassikaya.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
@@ -26,7 +26,29 @@
         </div>
     </div>
 
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-4 mt-1">
+        <div class="card">
+            <img class="card-img-bottom" v-lazy="'/img/person/mehmetersahin.jpg'" alt="Card image cap">
+            <div class="card-body mx-auto">
+                <h5 class="card-title">Mehmet Erşahin</h5>
+                <hr>
+                
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        Başkan Yardımcısı
+                    </li>
+                    <li class="list-group-item">
+                        Ankara Ünv. Hukuk Fak.
+                    </li>
+                    <li class="list-group-item">
+                        Avukat - U. Arabulucu
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-4 mt-1">
         <div class="card">
             <img class="card-img-bottom" v-lazy="'/img/person/edagunday.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
@@ -48,7 +70,29 @@
         </div>
     </div>
 
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-4 mt-1">
+        <div class="card">
+            <img class="card-img-bottom" v-lazy="'/img/person/mine.jpg'" alt="Card image cap">
+            <div class="card-body mx-auto">
+                <h5 class="card-title">Mine Baş</h5>
+                <hr>
+                
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        Yönetim Kurulu Üyesi
+                    </li>
+                    <li class="list-group-item">
+                        Ankara Ünv. Hukuk Fak.
+                    </li>
+                    <li class="list-group-item">
+                        Avukat - Arabulucu
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-4 mt-1">
         <div class="card">
             <img class="card-img-bottom" v-lazy="'/img/person/rufaiozmen.jpg'" alt="Rufai Özmen Profil Fotoğrafı">
             <div class="card-body mx-auto">

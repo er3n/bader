@@ -63,7 +63,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - Arabulucu
+                        Avukat
                     </li>
                 </ul>
             </div>

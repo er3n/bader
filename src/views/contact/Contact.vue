@@ -14,7 +14,7 @@
         <div class="container mt-5">
         <ul class="list-group">
             <li class="list-group-item"><icon name="phone"></icon> 0 312 430 71 71 </li>
-            <li class="list-group-item"><icon name="map-marker"></icon> Necatibey Caddesi No: 25/18 Çankaya Ankara </li>
+            <li class="list-group-item"><icon name="map-marker"></icon> Necatibey Caddesi No: 25/29 Çankaya Ankara </li>
             <li class="list-group-item"><icon name="envelope"></icon> bader@bagimsizarabuluculardernegi.org </li>
         </ul>   
 

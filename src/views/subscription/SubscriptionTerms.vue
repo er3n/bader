@@ -10,7 +10,6 @@
         <li class="list-group-item">Fiil ehliyetine sahip bulunmak.</li>
         <li class="list-group-item">Adalet Bakanlığı Arabulucular Siciline Kaydedilmiş gerçek kişiler.</li>
         <li class="list-group-item">Arabuluculuk eğitimini tamamlamış gerçek kişiler.</li>
-        <li class="list-group-item">Arabuluculuk eğitiminde görev almış eğitici olan gerçek kişiler.</li>
         <li class="list-group-item">Islak imzalı Başvuru Formu.</li>
         <li class="list-group-item">Giriş keseneği ile aylık aidatın Dernek Banka hesabına yatırıldığını gösterir dekont.</li>
         <li class="list-group-item">Nüfus cüzdan fotokopisi.</li>

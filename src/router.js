@@ -13,6 +13,10 @@ import Subscription from './views/subscription/Subscription'
 import Activities from './views/activities/Activities'
 import Visits from './views/activities/Visits'
 import Seminars from './views/activities/Seminars'
+import Press from '@/views/press/Press'
+import TVPrograms from './views/press/TVPrograms'
+import RadioPrograms from './views/press/RadioPrograms'
+import OtherPrograms from './views/press/OtherPrograms'
 
 Vue.use(Router)
 
@@ -77,6 +81,24 @@ export default new Router({
         {
           path: 'etkinlik',
           component: Seminars
+        }
+      ]
+    },
+    {
+      path: '/basin',
+      component: Press,
+      children: [
+        {
+          path: 'tv-programlari',
+          component: TVPrograms
+        },
+        {
+          path: 'radyo-programlari',
+          component: RadioPrograms
+        },
+        {
+          path: 'yazili-basin',
+          component: OtherPrograms
         }
       ]
     }

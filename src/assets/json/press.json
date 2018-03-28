@@ -1,0 +1,17 @@
+{
+    "title": "Basın",
+    "menus": [
+        {
+            "title": "TV Programları",
+            "link": "/basin/tv-programlari"
+        },
+        {
+            "title": "Radyo Programları",
+            "link": "/basin/radyo-programlari"
+        },
+        {
+            "title": "Yazılı Basın",
+            "link": "/basin/yazili-basin"
+        }
+    ]
+}

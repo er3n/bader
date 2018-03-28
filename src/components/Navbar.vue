@@ -73,9 +73,9 @@
                             BASINDA BİZ
                         </a>
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'BASINDABIZ'" >
-                            <a class="dropdown-item" href="#/uyelik/kosullar" v-on:click="hideNavbar">TV PROGRAMLARI</a>
-                            <a class="dropdown-item" href="#/uyelik/form" v-on:click="hideNavbar">RADYO PROGRAMLARI</a>
-                            <a class="dropdown-item" href="#/uyelik/uyelerimiz" v-on:click="hideNavbar">YAZILI BASIN</a>
+                            <a class="dropdown-item" href="#/basin/tv-programlari" v-on:click="hideNavbar">TV PROGRAMLARI</a>
+                            <a class="dropdown-item" href="#/basin/radyo-programlari" v-on:click="hideNavbar">RADYO PROGRAMLARI</a>
+                            <a class="dropdown-item" href="#/basin/yazili-basin" v-on:click="hideNavbar">YAZILI BASIN</a>
                         </div>
                     </li>
                     <li class="nav-item">

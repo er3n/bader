@@ -6,7 +6,7 @@
 <div class="row">
     <div class="col-12 col-md-4">
         <div class="card">
-            <img class="card-img-bottom" src="../../assets/dy.jpg" alt="Card image cap">
+            <img class="card-img-bottom" v-lazy="'/img/person/dursunyassikaya.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
                 <h5 class="card-title">Dursun Yassikaya</h5>
                 <hr>
@@ -21,9 +21,6 @@
                     <li class="list-group-item">
                         Avukat - U. Arabulucu
                     </li>
-                    <li class="list-group-item">
-                        Arb. Sicil No: 1211
-                    </li>
                 </ul>
             </div>
         </div>
@@ -31,7 +28,7 @@
 
     <div class="col-12 col-md-4">
         <div class="card">
-            <img class="card-img-bottom" src="../../assets/eda.jpg" alt="Card image cap">
+            <img class="card-img-bottom" v-lazy="'/img/person/edagunday.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
                 <h5 class="card-title">A. Eda Günday</h5>
                 <hr>
@@ -46,8 +43,27 @@
                     <li class="list-group-item">
                         Avukat - U. Arabulucu
                     </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-4">
+        <div class="card">
+            <img class="card-img-bottom" v-lazy="'/img/person/rufaiozmen.jpg'" alt="Rufai Özmen Profil Fotoğrafı">
+            <div class="card-body mx-auto">
+                <h5 class="card-title">R. Rufai Özmen</h5>
+                <hr>
+                
+                <ul class="list-group">
                     <li class="list-group-item">
-                        Arb. Sicil No: 2942
+                        Yönetim Kurulu Üyesi
+                    </li>
+                    <li class="list-group-item">
+                        Ankara Ünv. Hukuk Fak.
+                    </li>
+                    <li class="list-group-item">
+                        Avukat - Arabulucu
                     </li>
                 </ul>
             </div>
@@ -72,4 +88,9 @@ $basecolor: #276ba6;
   background-color: $basecolor;
   color: white;
 }
+
+img {
+    max-height: 250px;
+}
+
 </style>

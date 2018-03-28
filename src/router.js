@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import About from './views/about/About.vue'
+import Statues from './views/about/Statues.vue'
 import Directors from './views/about/Directors.vue'
 import Purpose from './views/about/Purpose.vue'
 import Mediation from './views/mediation/Mediation.vue'
@@ -13,10 +14,14 @@ import Subscription from './views/subscription/Subscription'
 import Activities from './views/activities/Activities'
 import Visits from './views/activities/Visits'
 import Seminars from './views/activities/Seminars'
+import Articles from './views/activities/Articles'
 import Press from '@/views/press/Press'
 import TVPrograms from './views/press/TVPrograms'
 import RadioPrograms from './views/press/RadioPrograms'
 import OtherPrograms from './views/press/OtherPrograms'
+import Contact from './views/contact/Contact'
+import Legislation from './views/legislation/Legislation'
+import Pricing from './views/legislation/Pricing'
 
 Vue.use(Router)
 
@@ -39,6 +44,10 @@ export default new Router({
         {
           path: 'yonetim-kurulu',
           component: Directors
+        },
+        {
+          path: 'tuzugumuz',
+          component: Statues
         }
       ]
     },
@@ -57,6 +66,16 @@ export default new Router({
         {
           path: 'arabuluculuk-kitapligi',
           component: MediationLibrary
+        }
+      ]
+    },
+    {
+      path: '/mevzuat',
+      component: Legislation,
+      children: [
+        {
+          path: 'ucretlendirme',
+          component: Pricing
         }
       ]
     },
@@ -81,6 +100,10 @@ export default new Router({
         {
           path: 'etkinlik',
           component: Seminars
+        },
+        {
+          path: 'makaleler',
+          component: Articles
         }
       ]
     },
@@ -101,6 +124,10 @@ export default new Router({
           component: OtherPrograms
         }
       ]
+    },
+    {
+      path: '/iletisim',
+      component: Contact
     }
   ]
 })

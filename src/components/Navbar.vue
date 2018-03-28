@@ -20,7 +20,7 @@
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'HAKKIMIZDA'" >
                             <a class="dropdown-item" href="#/hakkimizda/amac-ilke-deger" v-on:click="hideNavbar">AMAÇ İLKE VE DEĞERLERİMİZ</a>
                             <a class="dropdown-item" href="#/hakkimizda/yonetim-kurulu" v-on:click="hideNavbar">YÖNETİM KURULU</a>
-                            <a class="dropdown-item" href="#/hakkimizda/denetim-kurulu" v-on:click="hideNavbar">DENETİM KURULU</a>
+                            <a class="dropdown-item" href="#/hakkimizda/denetim-kurulu" v-on:click="hideNavbar">KURUCULARIMIZ</a>
                             <a class="dropdown-item" href="#/hakkimizda/tuzugumuz" v-on:click="hideNavbar">TÜZÜĞÜMÜZ</a>
                         </div>
                     </li>
@@ -32,7 +32,7 @@
                             <a class="dropdown-item" href="http://www.mevzuat.gov.tr/MevzuatMetin/1.5.6325.pdf" target="_blank" v-on:click="hideNavbar">KANUN</a>
                             <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/HukukUyusmazliklarindaArabuluculukKanunuYonetmeligi.pdf" target="_blank" v-on:click="hideNavbar">YÖNETMELİK</a>
                             <a class="dropdown-item" href="/pdf/etik-kurallar.pdf" target="_blank" v-on:click="hideNavbar">ETİK KURALLAR</a>
-                            <a class="dropdown-item" href="/pdf/ucret-tarife.pdf" target="_blank" v-on:click="hideNavbar">ÜCRET TARİFESİ</a>
+                            <a class="dropdown-item" href="#/mevzuat/ucretlendirme"  v-on:click="hideNavbar">ÜCRET TARİFESİ</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown" >
@@ -42,7 +42,7 @@
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'ARABULUCULUK'" >
                             <a class="dropdown-item" href="#/arabuluculuk/arabuluculuk-nedir" v-on:click="hideNavbar">ARABULUCULUK NEDİR?</a>
                             <a class="dropdown-item" href="#/arabuluculuk/sss" v-on:click="hideNavbar">SIK SORULAN SORULAR</a>
-                            <a class="dropdown-item" href="#/arabuluculuk/arabuluculuk-kitapligi" v-on:click="hideNavbar">ARABULUCULUK KİTAPLIĞI</a>
+                            <a class="dropdown-item" href="#/arabuluculuk/arabuluculuk-kitapligi" v-on:click="hideNavbar">İŞ HUKUĞUNDA UYUŞMAZLIKTA SSS</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown" >
@@ -52,6 +52,7 @@
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'FAALIYETLERIMIZ'" >
                             <a class="dropdown-item" href="#/faaliyetlerimiz/etkinlik" v-on:click="hideNavbar">ETKİNLİKLERİMİZ</a>
                             <a class="dropdown-item" href="#/faaliyetlerimiz/ziyaret" v-on:click="hideNavbar">ZİYARETLERİMİZ</a>
+                            <a class="dropdown-item" href="#/faaliyetlerimiz/makaleler" v-on:click="hideNavbar">MAKALELER</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown" >
@@ -73,7 +74,7 @@
                             BASINDA BİZ
                         </a>
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'BASINDABIZ'" >
-                            <a class="dropdown-item" href="#/basin/tv-programlari" v-on:click="hideNavbar">TV PROGRAMLARI</a>
+                        <a class="dropdown-item" href="#/basin/tv-programlari" v-on:click="hideNavbar">TV PROGRAMLARI</a>
                             <a class="dropdown-item" href="#/basin/radyo-programlari" v-on:click="hideNavbar">RADYO PROGRAMLARI</a>
                             <a class="dropdown-item" href="#/basin/yazili-basin" v-on:click="hideNavbar">YAZILI BASIN</a>
                         </div>

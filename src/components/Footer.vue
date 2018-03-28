@@ -17,12 +17,10 @@
             <div class="col-6 col-md">
                 <h5 class="text-white">Mevzuat</h5>
                 <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Yönetim Kurulu</a></li>
-                    <li><a class="text-muted" href="#">Denetim Kurulu</a></li>
-                    <li><a class="text-muted" href="#">Disiplin Kurulu</a></li>
-                    <li><a class="text-muted" href="#">Amaç ve Hedefler</a></li>
-                    <li><a class="text-muted" href="#">Tüzüğümüz</a></li>
-                    <li><a class="text-muted" href="#">Tanıtım Broşüşürümüz</a></li>
+                    <li><a class="text-muted" href="#">Kanun</a></li>
+                    <li><a class="text-muted" href="#">Yönetmelik</a></li>
+                    <li><a class="text-muted" href="#">Etik Kurallar</a></li>
+                    <li><a class="text-muted" href="#">Ücret Tarifesi</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
@@ -38,7 +36,7 @@
                     <li><a class="text-muted" href="#">Üyelik Koşulları</a></li>
                     <li><a class="text-muted" href="#">Üyelik Formu</a></li>
                     <li><a class="text-muted" href="#">Banka Bilgileri</a></li>
-                    <li><a class="text-muted" href="#">Üye Bilgileri</a></li>
+                    <li><a class="text-muted" href="#">Üyelerimiz</a></li>
                 </ul>
             </div>
             <div class="col-12 col-md-4">

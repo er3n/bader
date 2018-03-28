@@ -7,8 +7,6 @@
                     <div class="carousel-caption d-none d-md-block" id="wrapper">
                     <h1 class="">Arabuluculuk</h1>
                     <h1 class="font-weight-bold">Ekonomik, Hızlı, Gizli ve Gönüllü Çözüm</h1>
-                    <p>Hukuk uyuşmazlıklarında arabulucuk faaliyetlerini tanıtmak yaygınlaştırmak, faaliyetlere ilişkin yönetim ve standardı belirlemek.</p>
-                    <button type="button" class="btn aboutusbutton">Derneğimiz</button>
                     </div>
                 </div>
             </div>

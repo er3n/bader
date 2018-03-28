@@ -1,0 +1,9 @@
+{
+    "title": "Mevzuat",
+    "menus": [
+        {
+            "title": "Ücretlendirme",
+            "link": "/mevzuat/ucretlendirme"
+        }
+    ]
+}

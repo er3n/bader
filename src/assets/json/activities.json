@@ -8,6 +8,10 @@
         {
             "title": "Ziyaretlerimiz",
             "link": "/faaliyetlerimiz/ziyaret"
+        },
+        {
+            "title": "Makaleler",
+            "link": "/faaliyetlerimiz/makaleler"
         }
     ]
 }

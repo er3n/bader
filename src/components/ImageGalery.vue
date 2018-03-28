@@ -29,7 +29,7 @@ export default {
 <style lang="scss">
 
 
-.close {
+.close, .next {
     color: white !important
 }
 

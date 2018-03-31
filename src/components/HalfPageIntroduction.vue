@@ -4,13 +4,19 @@
             <div class="row ">
                 <div class="col-md-6 text-white pt-5">
                     <h1>Bağımsız Arabulucular Derneği</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, vidisse indoctum electram quo an, facilisi explicari duo ei, mutat tantas diceret vix te. Malorum omittam perfecto in qui, vix id ignota probatus. Sed ut esse assum. Facer fierent in vim. Veniam fuisset postulant pro cu, aperiam suscipiantur sea et.
-                    </p>
+
 
                     <p>
-                        Lorem ipsum dolor sit amet, vidisse indoctum electram quo an, facilisi explicari duo ei, mutat tantas diceret vix te. Malorum omittam perfecto in qui, vix id ignota probatus. Sed ut esse assum. Facer fierent in vim. Veniam fuisset postulant pro cu, aperiam suscipiantur sea et.
+                                BADER olarak; Arabuluculuk mesleğini tanıtmak ve geliştirmek, arabuluculuk mesleğini yürütenler
+        arasında yardımlaşma ve işbirliğini sağlamak, gerçek ve tüzel kişileri aralarındaki hukuk
+        uyuşmazlıklarının giderilmesi için, tarafsız ve bağımsız üçüncü bir kişi olan Arabulucu
+        yardımıyla ve ancak kendi iradelerine dayalı, alternatif bir çözüm için bilgilendirmek ve
+        özendirmek, bu şekilde uzlaşı kültürünün yayılmasına vasıta olarak toplumsal barışa katkı
+        sağlamak, bilimsel çeşitli görüşme ve müzakere yöntemleri kullanılarak, bireysel ve toplumsal
+        farkındalık yaratmak ve arabuluculuk çözüm yöntemi ile diğer tüm alternatif çözüm yollarının
+        tanıtımını ve geliştirilmesini sağlamak amaçları ile faaliyette bulunulması ilke edinilmiştir.
                     </p>
+                    
                 </div>
             </div>
         </div>

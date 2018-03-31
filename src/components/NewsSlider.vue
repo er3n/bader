@@ -5,44 +5,32 @@
 
         </div>
         <div class="d-flex justify-content-center">
-            <a class="title" href="#">Bütün haberlere buradan ulaşabilirsiniz</a>
+            <a class="title" href="#/faaliyetlerimiz/etkinlik">Bütün haberlere buradan ulaşabilirsiniz</a>
         </div>
 
         <div class="row mt-3">
             <div class="col-sm-4">
                 <div class="card" style="padding: 6px">
-                    <img class="card-img-top" src="http://via.placeholder.com/286x180" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Arabulucular yeni hizmet binasında</h5>
-                        <p class="card-text"> Lorem ipsum dolor sit amet, vidisse indoctum electram quo an, facilisi
-                            explicari
-                            duo ei, mutat tantas diceret vix te. Malorum omittam perfecto in qui ...</p>
-                        <button type="button" class="btn btn-devam">Devamı</button>
-                    </div>
+                    <img class="card-img-top" v-lazy="'/img/seminars/IMG_2986.jpg'" alt="Card image cap">
+                </div>
+                                <div class="card-body">
+                    <a type="button" href="#/faaliyetlerimiz/etkinlik" class="btn btn-devam">Devamı</a>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="card" style="padding: 6px">
-                    <img class="card-img-top" src="http://via.placeholder.com/286x180" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Arabulucular yeni hizmet binasında</h5>
-                        <p class="card-text"> Lorem ipsum dolor sit amet, vidisse indoctum electram quo an, facilisi
-                            explicari
-                            duo ei, mutat tantas diceret vix te. Malorum omittam perfecto in qui ...</p>
-                        <button type="button" class="btn btn-devam">Devamı</button>
-                    </div>
+                    <img class="card-img-top" v-lazy="'/img/seminars/IMG_2990.jpg'" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                    <a type="button" href="#/faaliyetlerimiz/etkinlik" class="btn btn-devam">Devamı</a>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="card" style="padding: 6px">
-                    <img class="card-img-top" src="http://via.placeholder.com/286x180" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Arabulucular yeni hizmet binasında</h5>
-                        <p class="card-text"> Lorem ipsum dolor sit amet, vidisse indoctum electram quo an, facilisi
-                            explicari
-                            duo ei, mutat tantas diceret vix te. Malorum omittam perfecto in qui ...</p>
-                        <button type="button" class="btn btn-devam">Devamı</button>
-                    </div>
+                    <img class="card-img-top" v-lazy="'/img/seminars/IMG_3031.jpg'" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                    <a type="button" href="#/faaliyetlerimiz/etkinlik" class="btn btn-devam">Devamı</a>
                 </div>
             </div>
 

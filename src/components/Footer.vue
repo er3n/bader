@@ -3,57 +3,70 @@
 
     <footer class="container py-5">
         <div class="row">
-            <div class="col-6 col-md">
+            <div class="col-12 col-md">
                 <h5 class="text-white">Hakkımızda</h5>
                 <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Yönetim Kurulu</a></li>
-                    <li><a class="text-muted" href="#">Denetim Kurulu</a></li>
-                    <li><a class="text-muted" href="#">Etik ve Disiplin Kurulu</a></li>
-                    <li><a class="text-muted" href="#">Amaç ve Hedefler</a></li>
-                    <li><a class="text-muted" href="#">Tüzüğümüz</a></li>
+                    <li><a class="text-muted" href="#/hakkimizda/yonetim-kurulu">Yönetim Kurulu</a></li>
+                    <li><a class="text-muted" href="#/hakkimizda/denetim-kurulu">Denetim Kurulu</a></li>
+                    <li><a class="text-muted" href="#/hakkimizda/amac-ilke-deger">Amaç ve Hedefler</a></li>
+                    <li><a class="text-muted" href="#/hakkimizda/tuzugumuz" >Tüzüğümüz</a></li>
                     <li><a class="text-muted" href="#">Tanıtım Broşörümüz</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
                 <h5 class="text-white">Mevzuat</h5>
                 <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Kanun</a></li>
-                    <li><a class="text-muted" href="#">Yönetmelik</a></li>
-                    <li><a class="text-muted" href="#">Etik Kurallar</a></li>
-                    <li><a class="text-muted" href="#">Ücret Tarifesi</a></li>
+                    <li><a class="text-muted" href="http://www.mevzuat.gov.tr/MevzuatMetin/1.5.6325.pdf" >Kanun</a></li>
+                    <li><a class="text-muted" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/HukukUyusmazliklarindaArabuluculukKanunuYonetmeligi.pdf" >Yönetmelik</a></li>
+                    <li><a class="text-muted" href="/pdf/etik-kurallar.pdf" >Etik Kurallar</a></li>
+                    <li><a class="text-muted" href="#/mevzuat/ucretlendirme">Ücret Tarifesi</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5 class="text-white">Arabuluculuk</h5>
+                <ul class="list-unstyled text-small">
+
+                    <li><a class="text-muted" href="#/arabuluculuk/arabuluculuk-nedir" v-on:click="hideNavbar">Arabuluculuk Nedir?</a></li>
+                        <li>    <a class="text-muted" href="#/arabuluculuk/sss" v-on:click="hideNavbar">Sık Sorulan Sorular</a></li>
+                            <li><a class="text-muted" href="#/arabuluculuk/arabuluculuk-kitapligi" v-on:click="hideNavbar">İş Hukupunda Uyuşmazlıkta SSS</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
                 <h5 class="text-white">Faaliyetlerimiz</h5>
                 <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Etkinliklerimiz</a></li>
-                    <li><a class="text-muted" href="#">Ziyaretlerimiz</a></li>
+                    <li><a class="text-muted" href="#/faaliyetlerimiz/etkinlik" >Etkinliklerimiz</a></li>
+                    <li><a class="text-muted" href="#/faaliyetlerimiz/ziyaret" >Ziyaretlerimiz</a></li>
+                    <li><a class="text-muted" href="#/faaliyetlerimiz/makaleler" >Makaleler</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
-                <h5 class="text-white">Üyelerimiz</h5>
+                <h5 class="text-white">Üyelik</h5>
                 <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Üyelik Koşulları</a></li>
-                    <li><a class="text-muted" href="#">Üyelik Formu</a></li>
-                    <li><a class="text-muted" href="#">Banka Bilgileri</a></li>
-                    <li><a class="text-muted" href="#">Üyelerimiz</a></li>
+                    <li><a class="text-muted" href="#/uyelik/kosullar">Üyelik Koşulları</a></li>
+                    <li><a class="text-muted" href="#/uyelik/form" >Üyelik Formu</a></li>
+                    <li><a class="text-muted" href="#/uyelik/banka-bilgileri" >Banka Bilgileri</a></li>
+                    <li><a class="text-muted"  href="#/uyelik/uyelerimiz">Üyelerimiz</a></li>
                 </ul>
             </div>
-            <div class="col-12 col-md-4">
-                <small class="text-white">Eposta bildirim listemize kayıt olmak için</small>
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Email Adresiniz" >
-                    <span class="input-group-addon bg-white text-dark" style="vertical-align: middle" >
-                        <span class="pt-2">
-                        <icon name="paper-plane" scale="2.2" class="pt-2"/></span>
-                    </span>
-                </div>
-                <div class="social float-md-right">
-                    <a href="https://www.instagram.com/bamarabuluculukmerkezi/"><icon name="instagram" scale="2" /></a>
-                    <a href="https://www.facebook.com/BAM-Ba%C4%9F%C4%B1ms%C4%B1z-Arabuluculuk-ve-Alternatif-Uyu%C5%9Fmazl%C4%B1k-%C3%87%C3%B6z%C3%BCm-Merkezi-125976598091885/" ><icon name="facebook"  scale="2" /></a>
-                    <a href="https://twitter.com/bamarabuluculuk"><icon name="twitter" scale="2" /></a>
-                </div>
+            <div class="col-6 col-md">
+                <h5 class="text-white">Basında Biz</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted"  href="#/basin/tv-programlari">TV Programları</a></li>
+                    <li><a class="text-muted"  href="#/basin/radyo-programlari" >Radyo Programları</a></li>
+                    <li><a class="text-muted" href="#/uyelik/banka-bilgileri" >Banka Bilgileri</a></li>
+                    <li><a class="text-muted"  href="#/basin/yazili-basin">Yazılı Basın</a></li>
+                </ul>
             </div>
+            <div class="col-6 col-md">
+                <h5 class="text-white">Sosyal</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a href="https://www.instagram.com/bagimsizarabuluculardernegi/?hl=tr"><icon name="instagram" scale="2" /></a></li>
+                    <li><a href="#" ><icon name="facebook"  scale="2" /></a></li>
+                    <li><a href="#"><icon name="twitter" scale="2" /></a></li>
+                </ul>
+            </div>
+
+
             <div class="col-12 text-white" style="text-align: center">
                 <small>Bütün hakları saklıdır © {{ new Date().getFullYear() }} - BADER Bağımsız Arabulucular Derneği</small>
             </div>
@@ -99,5 +112,6 @@
     }
 
 </style>
+
 
 

@@ -21,7 +21,7 @@
                             <a class="dropdown-item" href="#/hakkimizda/amac-ilke-deger" v-on:click="hideNavbar">AMAÇ İLKE VE DEĞERLERİMİZ</a>
                             <a class="dropdown-item" href="#/hakkimizda/yonetim-kurulu" v-on:click="hideNavbar">YÖNETİM KURULU</a>
                             <a class="dropdown-item" href="#/hakkimizda/denetim-kurulu" v-on:click="hideNavbar">DENETİM KURULU</a>
-                            <a class="dropdown-item" href="#/hakkimizda/denetim-kurulu" v-on:click="hideNavbar">KURUCULARIMIZ</a>
+                            <a class="dropdown-item" href="#/hakkimizda/kurucular" v-on:click="hideNavbar">KURUCULARIMIZ</a>
                             <a class="dropdown-item" href="#/hakkimizda/tuzugumuz" v-on:click="hideNavbar">TÜZÜĞÜMÜZ</a>
                         </div>
                     </li>

@@ -6,10 +6,10 @@
             <div class="col-12 col-md">
                 <h5 class="text-white">Hakkımızda</h5>
                 <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#/hakkimizda/amac-ilke-deger">Amaç ve Hedefler</a></li>
                     <li><a class="text-muted" href="#/hakkimizda/yonetim-kurulu">Yönetim Kurulu</a></li>
                     <li><a class="text-muted" href="#/hakkimizda/yonetim-kurulu">Denetim Kurulu</a></li>
-                    <li><a class="text-muted" href="#/hakkimizda/denetim-kurulu">Denetim Kurulu</a></li>
-                    <li><a class="text-muted" href="#/hakkimizda/amac-ilke-deger">Amaç ve Hedefler</a></li>
+                    <li><a class="text-muted" href="#/hakkimizda/kurucular">Kurucularmız</a></li>
                     <li><a class="text-muted" href="#/hakkimizda/tuzugumuz" >Tüzüğümüz</a></li>
                 </ul>
             </div>

@@ -5,6 +5,7 @@ import About from './views/about/About.vue'
 import Statues from './views/about/Statues.vue'
 import Directors from './views/about/Directors.vue'
 import Supervisory from './views/about/Supervisory.vue'
+import Founders from './views/about/Founders.vue'
 import Purpose from './views/about/Purpose.vue'
 import Mediation from './views/mediation/Mediation.vue'
 import WhatMediation from './views/mediation/WhatMediation'
@@ -51,6 +52,10 @@ export default new Router({
         {
           path: 'denetim-kurulu',
           component: Supervisory
+        },
+        {
+          path: 'kurucular',
+          component: Founders
         },
         {
           path: 'tuzugumuz',

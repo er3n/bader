@@ -9,7 +9,7 @@
                     <div class="p-0">
                         <div class="d-flex flex-column phone">
                             <div class="p-0">Tel</div>
-                            <div class="p-0">0 312 229 23 70</div>
+                            <div class="p-0">0 312 431 71 71</div>
                         </div>
                     </div>
                 </div>
@@ -20,7 +20,7 @@
                     <div class="p-0">
                         <div class="d-flex flex-column phone">
                             <div class="p-0">Adress</div>
-                            <div class="p-0">Necatibey Caddesi No: 25/18 Ankara</div>
+                            <div class="p-0">Necatibey Caddesi No: 25/29 Ankara</div>
                         </div>
                     </div>
                 </div>

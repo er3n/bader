@@ -4,6 +4,10 @@
         {
             "title": "Üyelik Koşulları",
             "link": "/uyelik/kosullar"
+        },
+		{
+            "title": "Banka Bilgileri",
+            "link": "/uyelik/banka-bilgileri"
         }
     ]
 }

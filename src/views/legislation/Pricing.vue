@@ -7,7 +7,7 @@
   
   <br>
 
-  <a href="/pdf/ucret-tarife.pdf" target="_blank"> Eki için tıklayınız </a>
+  <a href="http://en.calameo.com/read/0055326173412eb185192" target="_blank"> Eki için tıklayınız </a>
   
   </div>
 </template>

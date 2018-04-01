@@ -12,6 +12,10 @@
         {
             "title": "Makaleler",
             "link": "/faaliyetlerimiz/makaleler"
+        },
+        {
+            "title": "Eğitim Sunumları",
+            "link": "/faaliyetlerimiz/egitim-sunumlari"
         }
     ]
 }

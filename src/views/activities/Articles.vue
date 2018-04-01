@@ -3,9 +3,9 @@
       <h2>Makaleler</h2>
       <hr>
       <ul class="list-group">
-          <li class="list-group-item"><a href="/pdf/arabulucuk-nedir.pdf" target="_blank"> ARABULUCULUK NEDİR?  ARABULUCU KİMDİR?  HANGİ DAVALARDA VE HANGİ KONULARDA ARABULUCUYA GİDİLİR?  </a></li>
-          <li class="list-group-item"><a href="/pdf/arabuluculuk-alternatif.pdf" target="_blank"> ARABULUCULUK YENİ BULUNMUŞ BİR ALTERNATİF ÇÖZÜM YÖNTEMİ MİDİR?  </a></li>
-          <li class="list-group-item"><a href="/pdf/yeni-is-mahkeme.pdf" target="_blank"> YENİ İŞ MAHKEMELERİ KANUNU ÇERÇEVESİNDE ARABULUCULUK  </a></li>
+          <li class="list-group-item"><a href="http://docdro.id/bQE4r6s" target="_blank"> ARABULUCULUK NEDİR?  ARABULUCU KİMDİR?  HANGİ DAVALARDA VE HANGİ KONULARDA ARABULUCUYA GİDİLİR?  </a></li>
+          <li class="list-group-item"><a href="http://docdro.id/yC0FMTb" target="_blank"> ARABULUCULUK YENİ BULUNMUŞ BİR ALTERNATİF ÇÖZÜM YÖNTEMİ MİDİR?  </a></li>
+          <li class="list-group-item"><a href="http://docdro.id/lpSvbDQ" target="_blank"> YENİ İŞ MAHKEMELERİ KANUNU ÇERÇEVESİNDE ARABULUCULUK  </a></li>
       </ul>       
   </div>
 </template>

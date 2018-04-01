@@ -7,10 +7,10 @@
                 <h5 class="text-white">Hakkımızda</h5>
                 <ul class="list-unstyled text-small">
                     <li><a class="text-muted" href="#/hakkimizda/yonetim-kurulu">Yönetim Kurulu</a></li>
+                    <li><a class="text-muted" href="#/hakkimizda/yonetim-kurulu">Denetim Kurulu</a></li>
                     <li><a class="text-muted" href="#/hakkimizda/denetim-kurulu">Denetim Kurulu</a></li>
                     <li><a class="text-muted" href="#/hakkimizda/amac-ilke-deger">Amaç ve Hedefler</a></li>
                     <li><a class="text-muted" href="#/hakkimizda/tuzugumuz" >Tüzüğümüz</a></li>
-                    <li><a class="text-muted" href="#">Tanıtım Broşörümüz</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
@@ -18,7 +18,7 @@
                 <ul class="list-unstyled text-small">
                     <li><a class="text-muted" href="http://www.mevzuat.gov.tr/MevzuatMetin/1.5.6325.pdf" >Kanun</a></li>
                     <li><a class="text-muted" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/HukukUyusmazliklarindaArabuluculukKanunuYonetmeligi.pdf" >Yönetmelik</a></li>
-                    <li><a class="text-muted" href="/pdf/etik-kurallar.pdf" >Etik Kurallar</a></li>
+                    <li><a class="text-muted" href="http://en.calameo.com/read/0055326178627edf6424d" >Etik Kurallar</a></li>
                     <li><a class="text-muted" href="#/mevzuat/ucretlendirme">Ücret Tarifesi</a></li>
                 </ul>
             </div>
@@ -26,9 +26,9 @@
                 <h5 class="text-white">Arabuluculuk</h5>
                 <ul class="list-unstyled text-small">
 
-                    <li><a class="text-muted" href="#/arabuluculuk/arabuluculuk-nedir" v-on:click="hideNavbar">Arabuluculuk Nedir?</a></li>
-                        <li>    <a class="text-muted" href="#/arabuluculuk/sss" v-on:click="hideNavbar">Sık Sorulan Sorular</a></li>
-                            <li><a class="text-muted" href="#/arabuluculuk/arabuluculuk-kitapligi" v-on:click="hideNavbar">İş Hukupunda Uyuşmazlıkta SSS</a></li>
+                    <li><a class="text-muted" href="#/arabuluculuk/arabuluculuk-nedir">Arabuluculuk Nedir?</a></li>
+                        <li>    <a class="text-muted" href="#/arabuluculuk/sss" >Sıkça Sorulan Sorular</a></li>
+                            <li><a class="text-muted" href="#/arabuluculuk/arabuluculuk-kitapligi">İş Hukukunda Uyuşmazlıkta SSS</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
@@ -53,7 +53,6 @@
                 <ul class="list-unstyled text-small">
                     <li><a class="text-muted"  href="#/basin/tv-programlari">TV Programları</a></li>
                     <li><a class="text-muted"  href="#/basin/radyo-programlari" >Radyo Programları</a></li>
-                    <li><a class="text-muted" href="#/uyelik/banka-bilgileri" >Banka Bilgileri</a></li>
                     <li><a class="text-muted"  href="#/basin/yazili-basin">Yazılı Basın</a></li>
                 </ul>
             </div>
@@ -62,7 +61,7 @@
                 <ul class="list-unstyled text-small">
                     <li><a href="https://www.instagram.com/bagimsizarabuluculardernegi/?hl=tr"><icon name="instagram" scale="2" /></a></li>
                     <li><a href="#" ><icon name="facebook"  scale="2" /></a></li>
-                    <li><a href="#"><icon name="twitter" scale="2" /></a></li>
+                    <li><a href="https://twitter.com/BADER_Dernegi/status/929964671884513280"><icon name="twitter" scale="2" /></a></li>
                 </ul>
             </div>
 

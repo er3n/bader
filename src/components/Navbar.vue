@@ -20,6 +20,7 @@
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'HAKKIMIZDA'" >
                             <a class="dropdown-item" href="#/hakkimizda/amac-ilke-deger" v-on:click="hideNavbar">AMAÇ İLKE VE DEĞERLERİMİZ</a>
                             <a class="dropdown-item" href="#/hakkimizda/yonetim-kurulu" v-on:click="hideNavbar">YÖNETİM KURULU</a>
+                            <a class="dropdown-item" href="#/hakkimizda/denetim-kurulu" v-on:click="hideNavbar">DENETİM KURULU</a>
                             <a class="dropdown-item" href="#/hakkimizda/denetim-kurulu" v-on:click="hideNavbar">KURUCULARIMIZ</a>
                             <a class="dropdown-item" href="#/hakkimizda/tuzugumuz" v-on:click="hideNavbar">TÜZÜĞÜMÜZ</a>
                         </div>
@@ -31,7 +32,7 @@
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'MEVZUAT'" >
                             <a class="dropdown-item" href="http://www.mevzuat.gov.tr/MevzuatMetin/1.5.6325.pdf" target="_blank" v-on:click="hideNavbar">KANUN</a>
                             <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/HukukUyusmazliklarindaArabuluculukKanunuYonetmeligi.pdf" target="_blank" v-on:click="hideNavbar">YÖNETMELİK</a>
-                            <a class="dropdown-item" href="/pdf/etik-kurallar.pdf" target="_blank" v-on:click="hideNavbar">ETİK KURALLAR</a>
+                            <a class="dropdown-item" href="http://en.calameo.com/read/0055326178627edf6424d" target="_blank" v-on:click="hideNavbar">ETİK KURALLAR</a>
                             <a class="dropdown-item" href="#/mevzuat/ucretlendirme"  v-on:click="hideNavbar">ÜCRET TARİFESİ</a>
                         </div>
                     </li>
@@ -53,6 +54,7 @@
                             <a class="dropdown-item" href="#/faaliyetlerimiz/etkinlik" v-on:click="hideNavbar">ETKİNLİKLERİMİZ</a>
                             <a class="dropdown-item" href="#/faaliyetlerimiz/ziyaret" v-on:click="hideNavbar">ZİYARETLERİMİZ</a>
                             <a class="dropdown-item" href="#/faaliyetlerimiz/makaleler" v-on:click="hideNavbar">MAKALELER</a>
+                            <a class="dropdown-item" href="#/faaliyetlerimiz/egitim-sunumlari" v-on:click="hideNavbar">EĞİTİM SUNUMLARI</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown" >

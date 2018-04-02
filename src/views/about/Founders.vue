@@ -16,7 +16,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - U. Arabulucu
+                        Avukat - Uzm. Arabulucu
                     </li>
                 </ul>
             </div>
@@ -35,7 +35,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - U. Arabulucu
+                        Avukat - Uzm. Arabulucu
                     </li>
                 </ul>
             </div>
@@ -75,7 +75,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - U. Arabulucu
+                        Avukat - Uzm. Arabulucu
                     </li>
                 </ul>
             </div>

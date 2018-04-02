@@ -20,7 +20,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - U. Arabulucu
+                        Avukat - Uzm.  Arabulucu
                     </li>
                 </ul>
 
@@ -48,7 +48,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - U. Arabulucu
+                        Avukat - Uzm.  Arabulucu
                     </li>
                 </ul>
             </div>
@@ -71,7 +71,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - U. Arabulucu
+                        Avukat - Uzm. Arabulucu
                     </li>
                 </ul>
             </div>
@@ -80,7 +80,7 @@
 
     <div class="col-12 col-md-4 mt-1">
         <div class="card">
-            <img class="card-img-bottom" v-lazy="'/img/person/mine.jpg'" alt="Card image cap">
+            <img class="card-img-bottom" v-lazy="'/img/person/minebas.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
                 <h5 class="card-title">Mine Baş</h5>
                 <footer  style="font-size: 10px;" >minebas@bagimsizarabuluculardernegi.org</footer>

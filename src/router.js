@@ -23,6 +23,7 @@ import TVPrograms from './views/press/TVPrograms'
 import RadioPrograms from './views/press/RadioPrograms'
 import OtherPrograms from './views/press/OtherPrograms'
 import Contact from './views/contact/Contact'
+import Announcement from './views/announcement/Announcement'
 import Legislation from './views/legislation/Legislation'
 import Pricing from './views/legislation/Pricing'
 import Slides from './views/activities/Slides'
@@ -148,6 +149,10 @@ export default new Router({
     {
       path: '/iletisim',
       component: Contact
+    },
+    {
+      path: '/duyurular',
+      component: Announcement
     }
   ]
 })

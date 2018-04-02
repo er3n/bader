@@ -16,7 +16,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - U. Arabulucu
+                        Avukat - Uzm.  Arabulucu
                     </li>
                 </ul>
             </div>
@@ -25,9 +25,9 @@
 
     <div class="col-12 col-md-4 mt-1">
         <div class="card">
-            <img class="card-img-bottom" v-lazy="'/img/person/3.png'" alt="Card image cap">
+            <img class="card-img-bottom" v-lazy="'/img/person/d2580337-d8e0-4858-abb3-66992df6945f.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
-                <h5 class="card-title">Yaşar Akdeniz</h5>
+                <h5 class="card-title">Eyüp Yıldırım</h5>
                 <hr>
                 
                 <ul class="list-group">
@@ -35,7 +35,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - Arabulucu
+                        Avukat - Uzm. Arabulucu
                     </li>
                 </ul>
             </div>
@@ -47,7 +47,7 @@
         <div class="card">
             <img class="card-img-bottom" v-lazy="'/img/person/1.png'" alt="Card image cap">
             <div class="card-body mx-auto">
-                <h5 class="card-title">Dursun Yassikaya</h5>
+                <h5 class="card-title">Selim Karakoyun</h5>
                 <hr>
                 
                 <ul class="list-group">

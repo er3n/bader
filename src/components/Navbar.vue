@@ -43,7 +43,7 @@
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'ARABULUCULUK'" >
                             <a class="dropdown-item" href="#/arabuluculuk/arabuluculuk-nedir" v-on:click="hideNavbar">ARABULUCULUK NEDİR?</a>
                             <a class="dropdown-item" href="#/arabuluculuk/sss" v-on:click="hideNavbar">SIK SORULAN SORULAR</a>
-                            <a class="dropdown-item" href="#/arabuluculuk/arabuluculuk-kitapligi" v-on:click="hideNavbar">İŞ HUKUĞUNDA UYUŞMAZLIKTA SSS</a>
+                            <a class="dropdown-item" href="#/arabuluculuk/arabuluculuk-kitapligi" v-on:click="hideNavbar">İŞ HUKUKUNDA UYUŞMAZLIKTA SSS</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown" >
@@ -63,7 +63,7 @@
                         </a>
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'UYELIK'" >
                             <a class="dropdown-item" href="#/uyelik/kosullar" v-on:click="hideNavbar">ÜYELİK KOŞULLARI</a>
-                            <a class="dropdown-item" href="#/uyelik/form" v-on:click="hideNavbar">ÜYELİK FORMU</a>
+                            <a class="dropdown-item" href="http://docdro.id/7fpjXEn" target="_blank" v-on:click="hideNavbar">ÜYELİK FORMU</a>
                             <a class="dropdown-item" href="#/uyelik/uyelerimiz" v-on:click="hideNavbar">ÜYELERİMİZ</a>
                             <a class="dropdown-item" href="#/uyelik/banka-bilgileri" v-on:click="hideNavbar">BANKA BİLGİLERİ</a>
                         </div>

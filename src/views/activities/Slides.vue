@@ -3,6 +3,7 @@
       <h2>Makaleler</h2>
       <hr>
       <ul class="list-group">
+        <li class="list-group-item"><a href="https://www.slideshare.net/Erenztrk4/alternatf-uyumazlik-zm-yntemler-ve-arabuluculuk" target="_blank"> ALTERNATİF UYUŞMAZLIK ÇÖZÜM YÖNTEMLERİ VE ARABULUCULUK  </a></li>
           <li class="list-group-item"><a href="https://www.slideshare.net/Erenztrk4/turk-hukuksisteminde-arabuluculukrev-92565629" target="_blank"> TÜRK HUKUK SİSTEMİNDE ARABULUCULUK  </a></li>
           <li class="list-group-item"><a href="https://www.slideshare.net/Erenztrk4/isci-isveren-davasartiarabuluculugu-revize-92565669" target="_blank"> 7036 SAYILI İŞ MAHKEMELERİ KANUNU ÇEVRESİNDE ARABULUCULUK  </a></li>
       </ul>       

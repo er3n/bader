@@ -9,6 +9,7 @@
             <img class="card-img-bottom" v-lazy="'/img/person/dursunyassikaya.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
                 <h5 class="card-title">Dursun Yassikaya</h5>
+                <footer  style="font-size: 10px;" >dursunyassikaya@bagimsizarabuluculardernegi.org</footer>
                 <hr>
                 
                 <ul class="list-group">
@@ -22,6 +23,11 @@
                         Avukat - U. Arabulucu
                     </li>
                 </ul>
+
+                
+
+
+
             </div>
         </div>
     </div>
@@ -31,6 +37,7 @@
             <img class="card-img-bottom" v-lazy="'/img/person/mehmetersahin.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
                 <h5 class="card-title">Mehmet Erşahin</h5>
+                <footer  style="font-size: 10px;" >mehmetersahin@bagimsizarabuluculardernegi.org</footer>
                 <hr>
                 
                 <ul class="list-group">
@@ -53,6 +60,7 @@
             <img class="card-img-bottom" v-lazy="'/img/person/edagunday.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
                 <h5 class="card-title">A. Eda Günday</h5>
+                <footer  style="font-size: 10px;" >edagunday@bagimsizarabuluculardernegi.org</footer>
                 <hr>
                 
                 <ul class="list-group">
@@ -75,6 +83,7 @@
             <img class="card-img-bottom" v-lazy="'/img/person/mine.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
                 <h5 class="card-title">Mine Baş</h5>
+                <footer  style="font-size: 10px;" >minebas@bagimsizarabuluculardernegi.org</footer>
                 <hr>
                 
                 <ul class="list-group">
@@ -97,6 +106,7 @@
             <img class="card-img-bottom" v-lazy="'/img/person/rufaiozmen.jpg'" alt="Rufai Özmen Profil Fotoğrafı">
             <div class="card-body mx-auto">
                 <h5 class="card-title">R. Rufai Özmen</h5>
+                <footer  style="font-size: 10px;" >rufaiozmen@bagimsizarabuluculardernegi.org</footer>
                 <hr>
                 
                 <ul class="list-group">

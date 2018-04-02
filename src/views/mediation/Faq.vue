@@ -1,6 +1,6 @@
 <template>
   <div class="col-12 col-md-9">
-      <h2>Sık Sorulan Sorular</h2>
+      <h2>Sıkca Sorulan Sorular</h2>
       <hr>
       <accordion :items="faqContent" />
   </div>

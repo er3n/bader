@@ -1,6 +1,6 @@
 <template>
   <div class="col-12 col-md-9">
-      <h2>İş Hukuğunda Uyuşmazlıkta Sık Sorulan Sorular</h2>
+      <h2>İş Hukukunda Uyuşmazlıkta Sık Sorulan Sorular</h2>
       <hr>
       <accordion :items="arabuluculukFaq" />
   </div>

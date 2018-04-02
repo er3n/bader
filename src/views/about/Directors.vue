@@ -88,7 +88,7 @@
                 
                 <ul class="list-group">
                     <li class="list-group-item">
-                        Yönetim Kurulu Üyesi
+                        Sayman
                     </li>
                     <li class="list-group-item">
                         Ankara Ünv. Hukuk Fak.

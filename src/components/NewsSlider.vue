@@ -5,7 +5,7 @@
 
         </div>
         <div class="d-flex justify-content-center">
-            <a class="title" href="#/faaliyetlerimiz/etkinlik">Bütün haberlere buradan ulaşabilirsiniz</a>
+            <a class="title" href="/faaliyetlerimiz/etkinlik">Bütün haberlere buradan ulaşabilirsiniz</a>
         </div>
 
         <div class="row mt-3">
@@ -14,7 +14,7 @@
                     <img class="card-img-top" v-lazy="'/img/seminars/IMG_2986.jpg'" alt="Card image cap">
                 </div>
                                 <div class="card-body">
-                    <a type="button" href="#/faaliyetlerimiz/etkinlik" class="btn btn-devam">Devamı</a>
+                    <a type="button" href="/faaliyetlerimiz/etkinlik" class="btn btn-devam">Devamı</a>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -22,7 +22,7 @@
                     <img class="card-img-top" v-lazy="'/img/seminars/IMG_2990.jpg'" alt="Card image cap">
                 </div>
                 <div class="card-body">
-                    <a type="button" href="#/faaliyetlerimiz/etkinlik" class="btn btn-devam">Devamı</a>
+                    <a type="button" href="/faaliyetlerimiz/etkinlik" class="btn btn-devam">Devamı</a>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -30,7 +30,7 @@
                     <img class="card-img-top" v-lazy="'/img/seminars/IMG_3031.jpg'" alt="Card image cap">
                 </div>
                 <div class="card-body">
-                    <a type="button" href="#/faaliyetlerimiz/etkinlik" class="btn btn-devam">Devamı</a>
+                    <a type="button" href="/faaliyetlerimiz/etkinlik" class="btn btn-devam">Devamı</a>
                 </div>
             </div>
 

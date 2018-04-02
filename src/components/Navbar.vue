@@ -18,11 +18,11 @@
                             HAKKIMIZDA
                         </a>
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'HAKKIMIZDA'" >
-                            <a class="dropdown-item" href="#/hakkimizda/amac-ilke-deger" v-on:click="hideNavbar">AMAÇ İLKE VE DEĞERLERİMİZ</a>
-                            <a class="dropdown-item" href="#/hakkimizda/yonetim-kurulu" v-on:click="hideNavbar">YÖNETİM KURULU</a>
-                            <a class="dropdown-item" href="#/hakkimizda/denetim-kurulu" v-on:click="hideNavbar">DENETİM KURULU</a>
-                            <a class="dropdown-item" href="#/hakkimizda/kurucular" v-on:click="hideNavbar">KURUCULARIMIZ</a>
-                            <a class="dropdown-item" href="#/hakkimizda/tuzugumuz" v-on:click="hideNavbar">TÜZÜĞÜMÜZ</a>
+                            <a class="dropdown-item" href="/hakkimizda/amac-ilke-deger" v-on:click="hideNavbar">AMAÇ İLKE VE DEĞERLERİMİZ</a>
+                            <a class="dropdown-item" href="/hakkimizda/yonetim-kurulu" v-on:click="hideNavbar">YÖNETİM KURULU</a>
+                            <a class="dropdown-item" href="/hakkimizda/denetim-kurulu" v-on:click="hideNavbar">DENETİM KURULU</a>
+                            <a class="dropdown-item" href="/hakkimizda/kurucular" v-on:click="hideNavbar">KURUCULARIMIZ</a>
+                            <a class="dropdown-item" href="/hakkimizda/tuzugumuz" v-on:click="hideNavbar">TÜZÜĞÜMÜZ</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown" >
@@ -33,7 +33,7 @@
                             <a class="dropdown-item" href="http://www.mevzuat.gov.tr/MevzuatMetin/1.5.6325.pdf" target="_blank" v-on:click="hideNavbar">KANUN</a>
                             <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/HukukUyusmazliklarindaArabuluculukKanunuYonetmeligi.pdf" target="_blank" v-on:click="hideNavbar">YÖNETMELİK</a>
                             <a class="dropdown-item" href="http://en.calameo.com/read/0055326178627edf6424d" target="_blank" v-on:click="hideNavbar">ETİK KURALLAR</a>
-                            <a class="dropdown-item" href="#/mevzuat/ucretlendirme"  v-on:click="hideNavbar">ÜCRET TARİFESİ</a>
+                            <a class="dropdown-item" href="/mevzuat/ucretlendirme"  v-on:click="hideNavbar">ÜCRET TARİFESİ</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown" >
@@ -41,9 +41,9 @@
                             ARABULUCULUK
                         </a>
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'ARABULUCULUK'" >
-                            <a class="dropdown-item" href="#/arabuluculuk/arabuluculuk-nedir" v-on:click="hideNavbar">ARABULUCULUK NEDİR?</a>
-                            <a class="dropdown-item" href="#/arabuluculuk/sss" v-on:click="hideNavbar">SIK SORULAN SORULAR</a>
-                            <a class="dropdown-item" href="#/arabuluculuk/arabuluculuk-kitapligi" v-on:click="hideNavbar">İŞ HUKUKUNDA UYUŞMAZLIKTA SSS</a>
+                            <a class="dropdown-item" href="/arabuluculuk/arabuluculuk-nedir" v-on:click="hideNavbar">ARABULUCULUK NEDİR?</a>
+                            <a class="dropdown-item" href="/arabuluculuk/sss" v-on:click="hideNavbar">SIK SORULAN SORULAR</a>
+                            <a class="dropdown-item" href="/arabuluculuk/arabuluculuk-kitapligi" v-on:click="hideNavbar">İŞ HUKUKUNDA UYUŞMAZLIKTA SSS</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown" >
@@ -51,10 +51,10 @@
                             FAALİYETLERİMİZ
                         </a>
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'FAALIYETLERIMIZ'" >
-                            <a class="dropdown-item" href="#/faaliyetlerimiz/etkinlik" v-on:click="hideNavbar">ETKİNLİKLERİMİZ</a>
-                            <a class="dropdown-item" href="#/faaliyetlerimiz/ziyaret" v-on:click="hideNavbar">ZİYARETLERİMİZ</a>
-                            <a class="dropdown-item" href="#/faaliyetlerimiz/makaleler" v-on:click="hideNavbar">MAKALELER</a>
-                            <a class="dropdown-item" href="#/faaliyetlerimiz/egitim-sunumlari" v-on:click="hideNavbar">EĞİTİM SUNUMLARI</a>
+                            <a class="dropdown-item" href="/faaliyetlerimiz/etkinlik" v-on:click="hideNavbar">ETKİNLİKLERİMİZ</a>
+                            <a class="dropdown-item" href="/faaliyetlerimiz/ziyaret" v-on:click="hideNavbar">ZİYARETLERİMİZ</a>
+                            <a class="dropdown-item" href="/faaliyetlerimiz/makaleler" v-on:click="hideNavbar">MAKALELER</a>
+                            <a class="dropdown-item" href="/faaliyetlerimiz/egitim-sunumlari" v-on:click="hideNavbar">EĞİTİM SUNUMLARI</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown" >
@@ -62,27 +62,27 @@
                             ÜYELİK
                         </a>
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'UYELIK'" >
-                            <a class="dropdown-item" href="#/uyelik/kosullar" v-on:click="hideNavbar">ÜYELİK KOŞULLARI</a>
+                            <a class="dropdown-item" href="/uyelik/kosullar" v-on:click="hideNavbar">ÜYELİK KOŞULLARI</a>
                             <a class="dropdown-item" href="http://docdro.id/7fpjXEn" target="_blank" v-on:click="hideNavbar">ÜYELİK FORMU</a>
-                            <a class="dropdown-item" href="#/uyelik/uyelerimiz" v-on:click="hideNavbar">ÜYELERİMİZ</a>
-                            <a class="dropdown-item" href="#/uyelik/banka-bilgileri" v-on:click="hideNavbar">BANKA BİLGİLERİ</a>
+                            <a class="dropdown-item" href="/uyelik/uyelerimiz" v-on:click="hideNavbar">ÜYELERİMİZ</a>
+                            <a class="dropdown-item" href="/uyelik/banka-bilgileri" v-on:click="hideNavbar">BANKA BİLGİLERİ</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#/duyurular">DUYURULAR</a>
+                        <a class="nav-link" href="/duyurular">DUYURULAR</a>
                     </li>
                     <li class="nav-item dropdown" >
                         <a class="nav-link dropdown-toggle"  href="#" v-on:click.prevent="selectSubMenu('BASINDABIZ')"  >
                             BASINDA BİZ
                         </a>
                         <div class="dropdown-menu show" v-if="showSubMenuKey == 'BASINDABIZ'" >
-                        <a class="dropdown-item" href="#/basin/tv-programlari" v-on:click="hideNavbar">TV PROGRAMLARI</a>
-                            <a class="dropdown-item" href="#/basin/radyo-programlari" v-on:click="hideNavbar">RADYO PROGRAMLARI</a>
-                            <a class="dropdown-item" href="#/basin/yazili-basin" v-on:click="hideNavbar">YAZILI BASIN</a>
+                        <a class="dropdown-item" href="/basin/tv-programlari" v-on:click="hideNavbar">TV PROGRAMLARI</a>
+                            <a class="dropdown-item" href="/basin/radyo-programlari" v-on:click="hideNavbar">RADYO PROGRAMLARI</a>
+                            <a class="dropdown-item" href="/basin/yazili-basin" v-on:click="hideNavbar">YAZILI BASIN</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#/iletisim">İLETİŞİM</a>
+                        <a class="nav-link" href="/iletisim">İLETİŞİM</a>
                     </li>
                 </ul>
             </div>

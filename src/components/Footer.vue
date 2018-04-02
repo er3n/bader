@@ -6,11 +6,11 @@
             <div class="col-12 col-md">
                 <h5 class="text-white">Hakkımızda</h5>
                 <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#/hakkimizda/amac-ilke-deger">Amaç ve Hedefler</a></li>
-                    <li><a class="text-muted" href="#/hakkimizda/yonetim-kurulu">Yönetim Kurulu</a></li>
-                    <li><a class="text-muted" href="#/hakkimizda/yonetim-kurulu">Denetim Kurulu</a></li>
-                    <li><a class="text-muted" href="#/hakkimizda/kurucular">Kurucularmız</a></li>
-                    <li><a class="text-muted" href="#/hakkimizda/tuzugumuz" >Tüzüğümüz</a></li>
+                    <li><a class="text-muted" href="/hakkimizda/amac-ilke-deger">Amaç ve Hedefler</a></li>
+                    <li><a class="text-muted" href="/hakkimizda/yonetim-kurulu">Yönetim Kurulu</a></li>
+                    <li><a class="text-muted" href="/hakkimizda/yonetim-kurulu">Denetim Kurulu</a></li>
+                    <li><a class="text-muted" href="/hakkimizda/kurucular">Kurucularmız</a></li>
+                    <li><a class="text-muted" href="/hakkimizda/tuzugumuz" >Tüzüğümüz</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
@@ -19,41 +19,41 @@
                     <li><a class="text-muted" href="http://www.mevzuat.gov.tr/MevzuatMetin/1.5.6325.pdf" >Kanun</a></li>
                     <li><a class="text-muted" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/HukukUyusmazliklarindaArabuluculukKanunuYonetmeligi.pdf" >Yönetmelik</a></li>
                     <li><a class="text-muted" href="http://en.calameo.com/read/0055326178627edf6424d" >Etik Kurallar</a></li>
-                    <li><a class="text-muted" href="#/mevzuat/ucretlendirme">Ücret Tarifesi</a></li>
+                    <li><a class="text-muted" href="/mevzuat/ucretlendirme">Ücret Tarifesi</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
                 <h5 class="text-white">Arabuluculuk</h5>
                 <ul class="list-unstyled text-small">
 
-                    <li><a class="text-muted" href="#/arabuluculuk/arabuluculuk-nedir">Arabuluculuk Nedir?</a></li>
-                        <li>    <a class="text-muted" href="#/arabuluculuk/sss" >Sıkça Sorulan Sorular</a></li>
-                            <li><a class="text-muted" href="#/arabuluculuk/arabuluculuk-kitapligi">İş Hukukunda Uyuşmazlıkta SSS</a></li>
+                    <li><a class="text-muted" href="/arabuluculuk/arabuluculuk-nedir">Arabuluculuk Nedir?</a></li>
+                        <li>    <a class="text-muted" href="/arabuluculuk/sss" >Sıkça Sorulan Sorular</a></li>
+                            <li><a class="text-muted" href="/arabuluculuk/arabuluculuk-kitapligi">İş Hukukunda Uyuşmazlıkta SSS</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
                 <h5 class="text-white">Faaliyetlerimiz</h5>
                 <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#/faaliyetlerimiz/etkinlik" >Etkinliklerimiz</a></li>
-                    <li><a class="text-muted" href="#/faaliyetlerimiz/ziyaret" >Ziyaretlerimiz</a></li>
-                    <li><a class="text-muted" href="#/faaliyetlerimiz/makaleler" >Makaleler</a></li>
+                    <li><a class="text-muted" href="/faaliyetlerimiz/etkinlik" >Etkinliklerimiz</a></li>
+                    <li><a class="text-muted" href="/faaliyetlerimiz/ziyaret" >Ziyaretlerimiz</a></li>
+                    <li><a class="text-muted" href="/faaliyetlerimiz/makaleler" >Makaleler</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
                 <h5 class="text-white">Üyelik</h5>
                 <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#/uyelik/kosullar">Üyelik Koşulları</a></li>
-                    <li><a class="text-muted" href="#/uyelik/form" >Üyelik Formu</a></li>
-                    <li><a class="text-muted" href="#/uyelik/banka-bilgileri" >Banka Bilgileri</a></li>
-                    <li><a class="text-muted"  href="#/uyelik/uyelerimiz">Üyelerimiz</a></li>
+                    <li><a class="text-muted" href="/uyelik/kosullar">Üyelik Koşulları</a></li>
+                    <li><a class="text-muted" href="/uyelik/form" >Üyelik Formu</a></li>
+                    <li><a class="text-muted" href="/uyelik/banka-bilgileri" >Banka Bilgileri</a></li>
+                    <li><a class="text-muted"  href="/uyelik/uyelerimiz">Üyelerimiz</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
                 <h5 class="text-white">Basında Biz</h5>
                 <ul class="list-unstyled text-small">
-                    <li><a class="text-muted"  href="#/basin/tv-programlari">TV Programları</a></li>
-                    <li><a class="text-muted"  href="#/basin/radyo-programlari" >Radyo Programları</a></li>
-                    <li><a class="text-muted"  href="#/basin/yazili-basin">Yazılı Basın</a></li>
+                    <li><a class="text-muted"  href="/basin/tv-programlari">TV Programları</a></li>
+                    <li><a class="text-muted"  href="/basin/radyo-programlari" >Radyo Programları</a></li>
+                    <li><a class="text-muted"  href="/basin/yazili-basin">Yazılı Basın</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">

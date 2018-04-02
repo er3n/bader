@@ -10,7 +10,6 @@
           <li class="list-group-item"><a href="http://docdro.id/ienmgfs" target="_blank"> ARABULUCUĞUN TEMEL İLKELERİ </a></li>
           <li class="list-group-item"><a href="http://docdro.id/BZJLJIp" target="_blank"> İŞ HUKUKU DAVALARI BAKIMINDAN ZORUNLU ARABULUCULUK </a></li>
           <li class="list-group-item"><a href="http://docdro.id/0ju3HF0" target="_blank"> ARABULUCULUKTA İLETİŞİMİN ÖNEMİ </a></li>
-          <li class="list-group-item"><a href="http://docdro.id/rFbTi3r" target="_blank"> ÇALIŞMA HAYATINDA ARABULUCULUK DÖNEMİ BAŞLIYOR </a></li>
           
       </ul>       
   </div>

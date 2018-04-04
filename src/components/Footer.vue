@@ -43,7 +43,7 @@
                 <h5 class="text-white">Üyelik</h5>
                 <ul class="list-unstyled text-small">
                     <li><a class="text-muted" href="/uyelik/kosullar">Üyelik Koşulları</a></li>
-                    <li><a class="text-muted" href="/uyelik/form" >Üyelik Formu</a></li>
+                    <li><a class="text-muted" href="http://docdro.id/7fpjXEn" >Üyelik Formu</a></li>
                     <li><a class="text-muted" href="/uyelik/banka-bilgileri" >Banka Bilgileri</a></li>
                     <li><a class="text-muted"  href="/uyelik/uyelerimiz">Üyelerimiz</a></li>
                 </ul>

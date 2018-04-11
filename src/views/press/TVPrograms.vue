@@ -2,6 +2,9 @@
   <div class="col-12 col-md-9">
     <h2>TV Programları</h2>
     <hr>
+
+    <youtube video-id="llv1z3qmVKU"></youtube>
+
     <image-galery :images="images" />
   </div>
 </template>

@@ -3,7 +3,9 @@
     <h2>TV Programları</h2>
     <hr>
 
-    <youtube video-id="llv1z3qmVKU"></youtube>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/llv1z3qmVKU" allowfullscreen></iframe>
+    </div>
 
     <image-galery :images="images" />
   </div>
@@ -18,11 +20,17 @@ export default {
   data: function() {
     return {
       images: imageContent,
-      index: null
+      index: null,
+      videoId: 'llv1z3qmVKU'
     };
   },
   components: {
     ImageGalery
+  },
+  methods: {
+    ready (player) {
+      this.player = player
+    }
   }
 };
 </script>

@@ -6,7 +6,7 @@
 <div class="row">
     <div class="col-12 col-md-4 mt-1">
         <div class="card">
-            <img class="card-img-bottom" v-lazy="'/img/person/dursunyassikaya.jpg'" alt="Card image cap">
+            <img class="card-img-bottom" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1524292430/dursunyassikaya.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
                 <h5 class="card-title">Dursun Yassikaya</h5>
                 <footer  style="font-size: 10px;" >dursunyassikaya@bagimsizarabuluculardernegi.org</footer>
@@ -34,7 +34,7 @@
 
     <div class="col-12 col-md-4 mt-1">
         <div class="card">
-            <img class="card-img-bottom" v-lazy="'/img/person/mehmetersahin.jpg'" alt="Card image cap">
+            <img class="card-img-bottom" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1524292432/mehmetersahin.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
                 <h5 class="card-title">Mehmet Erşahin</h5>
                 <footer  style="font-size: 10px;" >mehmetersahin@bagimsizarabuluculardernegi.org</footer>
@@ -57,7 +57,7 @@
 
     <div class="col-12 col-md-4 mt-1">
         <div class="card">
-            <img class="card-img-bottom" v-lazy="'/img/person/edagunday.jpg'" alt="Card image cap">
+            <img class="card-img-bottom" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1524292431/edagunday.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
                 <h5 class="card-title">A. Eda Günday</h5>
                 <footer  style="font-size: 10px;" >edagunday@bagimsizarabuluculardernegi.org</footer>
@@ -80,7 +80,7 @@
 
     <div class="col-12 col-md-4 mt-1">
         <div class="card">
-            <img class="card-img-bottom" v-lazy="'/img/person/minebas.jpg'" alt="Card image cap">
+            <img class="card-img-bottom" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1524292433/minebas.png'" alt="Card image cap">
             <div class="card-body mx-auto">
                 <h5 class="card-title">Mine Baş</h5>
                 <footer  style="font-size: 10px;" >minebas@bagimsizarabuluculardernegi.org</footer>
@@ -103,7 +103,7 @@
 
     <div class="col-12 col-md-4 mt-1">
         <div class="card">
-            <img class="card-img-bottom" v-lazy="'/img/person/rufaiozmen.jpg'" alt="Rufai Özmen Profil Fotoğrafı">
+            <img class="card-img-bottom" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1524292432/rufaiozmen.jpg'" alt="Rufai Özmen Profil Fotoğrafı">
             <div class="card-body mx-auto">
                 <h5 class="card-title">R. Rufai Özmen</h5>
                 <footer  style="font-size: 10px;" >rufaiozmen@bagimsizarabuluculardernegi.org</footer>

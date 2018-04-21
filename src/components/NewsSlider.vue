@@ -11,7 +11,7 @@
         <div class="row mt-3">
             <div class="col-sm-4">
                 <div class="card" style="padding: 6px">
-                    <img class="card-img-top" v-lazy="'/img/announcement/duyuru20042018.jpg'" alt="Card image cap">
+                    <img class="card-img-top" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1524292423/duyuru20042018.jpg'" alt="Card image cap">
                 </div>
                 <div class="card-body">
                     <a type="button" href="/faaliyetlerimiz/etkinlik" class="btn btn-devam">Devamı</a>
@@ -19,7 +19,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="card" style="padding: 6px">
-                    <img class="card-img-top" v-lazy="'/img/announcement/haber20042018.jpg'" alt="Card image cap">
+                    <img class="card-img-top" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1524292427/haber20042018.jpg'" alt="Card image cap">
                 </div>
                                 <div class="card-body">
                     <a type="button" href="/faaliyetlerimiz/etkinlik" class="btn btn-devam">Devamı</a>
@@ -27,7 +27,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="card" style="padding: 6px">
-                    <img class="card-img-top" v-lazy="'/img/visits/9d4fe89e-ee19-47ba-87bc-899a83730509.jpg'" alt="Card image cap">
+                    <img class="card-img-top" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1524292451/9d4fe89e-ee19-47ba-87bc-899a83730509.jpg'" alt="Card image cap">
                 </div>
                 <div class="card-body">
                     <a type="button" href="/faaliyetlerimiz/etkinlik" class="btn btn-devam">Devamı</a>

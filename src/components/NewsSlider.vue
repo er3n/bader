@@ -9,39 +9,45 @@
         </div>
 
         <div class="row mt-3">
-            <div class="col-sm-4">
+            <div class="col-sm-4"  v-for="(content, contentIndex) in contents" :key=contentIndex >
                 <div class="card" style="padding: 6px">
-                    <img class="card-img-top" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1524292423/duyuru20042018.jpg'" alt="Card image cap">
+                    <img class="card-img-top"
+                         :src="content.src"
+                         v-if="content.src">
+                    <img class="card-img-top"
+                         :src="content"
+                         v-if="!content.src">
                 </div>
                 <div class="card-body">
-                    <a type="button" href="/faaliyetlerimiz/etkinlik" class="btn btn-devam">Devamı</a>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card" style="padding: 6px">
-                    <img class="card-img-top" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1524292427/haber20042018.jpg'" alt="Card image cap">
-                </div>
-                                <div class="card-body">
-                    <a type="button" href="/faaliyetlerimiz/etkinlik" class="btn btn-devam">Devamı</a>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card" style="padding: 6px">
-                    <img class="card-img-top" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1524292451/9d4fe89e-ee19-47ba-87bc-899a83730509.jpg'" alt="Card image cap">
-                </div>
-                <div class="card-body">
-                    <a type="button" href="/faaliyetlerimiz/etkinlik" class="btn btn-devam">Devamı</a>
+                    <p class="card-text" v-if="content.description">{{content.description}}</p>
+                    <a type="button"
+                       :href="content.href"
+                       v-if="content.href"
+                       class="btn btn-devam">Devamı</a>
+                    <a type="button"
+                       href="/faaliyetlerimiz/etkinlik"
+                       v-if="!content.href"
+                       class="btn btn-devam">Devamı</a>
                 </div>
             </div>
 
         </div>
 
+
     </div>
 </template>
 
 <script>
+
+  import content from '../assets/json/news'
+
   export default {
-    name: 'NewsSlider'
+    name: 'NewsSlider',
+    data () {
+      return {
+        contents: content
+      }
+    }
 
   }
 </script>

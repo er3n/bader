@@ -6,7 +6,7 @@
 
     <div class="col-12 col-md-4 mt-1">
         <div class="card">
-            <img class="card-img-bottom" v-lazy="'/img/person/2.png'" alt="Card image cap">
+            <img class="card-img-bottom" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1525627892/aydn.png'" alt="Card image cap">
             <div class="card-body mx-auto">
                 <h5 class="card-title">Aydın Cinel</h5>
                 <hr>
@@ -45,7 +45,7 @@
     
     <div class="col-12 col-md-4 mt-1">
         <div class="card">
-            <img class="card-img-bottom" v-lazy="'/img/person/1.png'" alt="Card image cap">
+            <img class="card-img-bottom" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1525627892/selim.png'" alt="Card image cap">
             <div class="card-body mx-auto">
                 <h5 class="card-title">Selim Karakoyun</h5>
                 <hr>

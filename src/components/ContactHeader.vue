@@ -9,7 +9,7 @@
                     <div class="p-0">
                         <div class="d-flex flex-column phone">
                             <div class="p-0">Tel</div>
-                            <div class="p-0">0 312 431 71 71</div>
+                            <div class="p-0">0 312 430 71 71</div>
                         </div>
                     </div>
                 </div>

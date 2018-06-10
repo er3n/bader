@@ -20,6 +20,9 @@
                     <li><a class="text-muted" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/HukukUyusmazliklarindaArabuluculukKanunuYonetmeligi.pdf" >Yönetmelik</a></li>
                     <li><a class="text-muted" href="http://en.calameo.com/read/0055326178627edf6424d" >Etik Kurallar</a></li>
                     <li><a class="text-muted" href="/mevzuat/ucretlendirme">Ücret Tarifesi</a></li>
+                    <li><a class="text-muted" href="https://res.cloudinary.com/dwxj5ta2q/image/upload/v1528662493/DERNEKLER_C%CC%A7ALIS%CC%A7TAYI.pdf" >ARABULUCULAR DERNEKLERİ I. ÇALIŞTAYI
+
+                    </a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">

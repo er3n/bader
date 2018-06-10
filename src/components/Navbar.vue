@@ -34,6 +34,7 @@
                             <a class="dropdown-item" href="http://www.adb.adalet.gov.tr/Sayfalar/Teskilat/mevzuat/HukukUyusmazliklarindaArabuluculukKanunuYonetmeligi.pdf" target="_blank" v-on:click="hideNavbar">YÖNETMELİK</a>
                             <a class="dropdown-item" href="http://en.calameo.com/read/0055326178627edf6424d" target="_blank" v-on:click="hideNavbar">ETİK KURALLAR</a>
                             <a class="dropdown-item" href="/mevzuat/ucretlendirme"  v-on:click="hideNavbar">ÜCRET TARİFESİ</a>
+                            <a class="dropdown-item" href="https://res.cloudinary.com/dwxj5ta2q/image/upload/v1528662493/DERNEKLER_C%CC%A7ALIS%CC%A7TAYI.pdf"  v-on:click="hideNavbar">ARABULUCULAR DERNEKLERİ I. ÇALIŞTAYI</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown" >

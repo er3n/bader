@@ -32,3 +32,9 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
+  deployment:
+    production:
+      branch: master
+      commands:
+        - surge --project ./dist --domain bagimsizarabuluculardernegi.org
+

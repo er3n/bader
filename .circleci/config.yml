@@ -27,7 +27,9 @@ jobs:
 
       - run: yarn install
       - run: npm run build
-      - run: surge --project ./dist --domain bagimsizarabuluculardernegi.org
+      
+      commands:
+        - surge --project ./dist --domain bagimsizarabuluculardernegi.org
 
       - save_cache:
           paths:

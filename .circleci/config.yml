@@ -27,7 +27,7 @@ jobs:
 
       - run: yarn install
       - run: npm run build
-      - run: ./node_modules/.bin/surge --project ./dist domain bagimsizarabuluculardernegi.org
+      - run: /home/circleci/repo/node_modules/.bin/surge --project ./dist domain bagimsizarabuluculardernegi.org
 
       - save_cache:
           paths:

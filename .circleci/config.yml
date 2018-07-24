@@ -28,10 +28,10 @@ jobs:
       - run: yarn install
       - run: npm run build
       
-      deployment:
-        production:
-          branch: master
-          commands:
+      - deployment:
+        - production:
+          - branch: master
+          - commands:
             - surge --project ./dist --domain bagimsizarabuluculardernegi.org
 
 

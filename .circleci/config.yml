@@ -27,15 +27,11 @@ jobs:
 
       - run: yarn install
       - run: npm run build
+      - run: pwd
+      - run: ls
 
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-          
-deployment:
-  production:
-  branch: master
-    commands:
-      - surge --project ./dist --domain bagimsizarabuluculardernegi.org
 

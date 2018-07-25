@@ -14,9 +14,6 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
 
     working_directory: ~/repo
-    
-    environment:
-      BASH_ENV: ~/.bashrc
 
     steps:
       - checkout
@@ -29,9 +26,8 @@ jobs:
           - v1-dependencies-
 
       - run: yarn install
+      - run: npm install -g surge
       - run: npm run build
-      - run: echo 'export PATH=${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin:$PATH' >> $BASH_ENV
-      - run: source /home/circleci/.bashrc
       - run: surge --project ./dist domain bagimsizarabuluculardernegi.org
 
       - save_cache:

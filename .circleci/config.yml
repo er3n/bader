@@ -14,6 +14,9 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
 
     working_directory: ~/repo
+    
+    environment:
+      BASH_ENV: ~/.bashrc
 
     steps:
       - checkout

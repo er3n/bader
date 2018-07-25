@@ -26,7 +26,7 @@ jobs:
           - v1-dependencies-
 
       - run: yarn install
-      - run: npm install -g surge
+      - run: sudo npm install -g surge
       - run: npm run build
       - run: surge --project ./dist domain bagimsizarabuluculardernegi.org
 

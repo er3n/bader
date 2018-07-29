@@ -27,6 +27,7 @@ jobs:
 
       - run: npm install
       - run: sudo npm install -g surge
+      - run: sudo npm install -g prerender-spa-plugin
       - run: npm run build
       - run: ls dist/
       - run: surge --project ./dist domain bagimsizarabuluculardernegi.org

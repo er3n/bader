@@ -1,4 +1,5 @@
 var PrerenderSpaPlugin = require('prerender-spa-plugin')
+const Renderer = require('@prerenderer/renderer-jsdom')
 var path = require('path')
 
 const prerenderPages = [
@@ -38,7 +39,7 @@ module.exports = {
           // List of routes to prerender
           prerenderPages,
           {
-              // options
+              renderer: new Renderer()
           }
         ),
       ]

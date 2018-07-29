@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@prerenderer/renderer-jsdom": "^0.1.4",
     "bootstrap": "^4.0.0",
     "vue": "^2.5.13",
     "vue-awesome": "^2.3.4",

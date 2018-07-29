@@ -26,11 +26,10 @@ jobs:
           - v1-dependencies-
 
       - run: npm install
-      - run: sudo npm install -g surge
-      - run: sudo npm install -g prerender-spa-plugin
+      - run: ls node_modules/
       - run: npm run build
       - run: ls dist/
-      - run: surge --project ./dist domain bagimsizarabuluculardernegi.org
+      - run: './node_modules/.bin/surge --project ./dist domain bagimsizarabuluculardernegi.org'
 
       - save_cache:
           paths:

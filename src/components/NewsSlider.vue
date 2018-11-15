@@ -38,44 +38,46 @@
 </template>
 
 <script>
+import content from "../assets/json/news";
+import getImage from "@/util/ImageRepository";
 
-  import content from '../assets/json/news'
-
-  export default {
-    name: 'NewsSlider',
-    data () {
-      return {
-        contents: content
-      }
-    }
-
+export default {
+  name: "NewsSlider",
+  data() {
+    return {
+      contents: content
+    };
+  },
+  created() {
+    getImage("haberler").then(res => {
+      this.contents = res.data.concat(this.contents);
+    });
   }
+};
 </script>
 
 <style lang="scss" scoped>
+$main_font_color: #385ea0;
 
-    $main_font_color: #385EA0;
+.title {
+  color: $main_font_color;
+}
 
-    .title {
-        color: $main_font_color
-    }
+.card-title {
+  color: $main_font_color !important;
+}
 
-    .card-title {
-        color: $main_font_color !important;
-    }
+.btn-devam {
+  background-color: $main_font_color;
+}
 
-    .btn-devam {
-        background-color: $main_font_color
-    }
+.btn-devam {
+  background-color: $main_font_color !important;
+  color: white;
+  border-radius: 0;
 
-    .btn-devam {
-        background-color: $main_font_color !important;
-        color: white;
-        border-radius: 0;
-
-        &:hover {
-            background-color: lighten($main_font_color, 30) !important;
-        }
-    }
-
+  &:hover {
+    background-color: lighten($main_font_color, 30) !important;
+  }
+}
 </style>

@@ -2,7 +2,7 @@
   <div class="col-12 col-md-9">
     <h2>Yazılı Basın</h2>
     <hr>
-    <image-galery :images="images" />
+    <image-galery :images="images" folder="yazilibasin" />
   </div>
 </template>
 

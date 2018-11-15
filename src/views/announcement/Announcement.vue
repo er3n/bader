@@ -12,7 +12,7 @@
         </div>
 
         <div class="container mt-5">
-        <image-galery :images="images" />
+        <image-galery :images="images" folder="duyurular" />
 
         </div>
 

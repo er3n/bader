@@ -6,25 +6,6 @@
 
     <div class="col-12 col-md-4 mt-1">
         <div class="card">
-            <img class="card-img-bottom" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1525627892/aydn.png'" alt="Card image cap">
-            <div class="card-body mx-auto">
-                <h5 class="card-title">Aydın Cinel</h5>
-                <hr>
-                
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        Ankara Ünv. Hukuk Fak.
-                    </li>
-                    <li class="list-group-item">
-                        Avukat - Uzm.  Arabulucu
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-12 col-md-4 mt-1">
-        <div class="card">
             <img class="card-img-bottom" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1524292430/d2580337-d8e0-4858-abb3-66992df6945f.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
                 <h5 class="card-title">Eyüp Yıldırım</h5>

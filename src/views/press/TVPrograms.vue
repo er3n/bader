@@ -4,6 +4,10 @@
     <hr>
 
     <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://youtu.be/39szy2TcxHY" allowfullscreen></iframe>
+    </div>
+
+    <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/llv1z3qmVKU" allowfullscreen></iframe>
     </div>
 

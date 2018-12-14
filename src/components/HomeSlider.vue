@@ -6,7 +6,7 @@
                 <div class="container">
                     <div class="carousel-caption d-none d-md-block" id="wrapper">
                     <h1 class="">Arabuluculuk</h1>
-                    <h1 class="font-weight-bold">Ekonomik, Hızlı, Gizli ve Gönüllü Çözüm</h1>
+                    <h1 class="font-weight-bold">Ekonomik, Hızlı, Gizli ve Gönüllü Çözüm...</h1>
                     </div>
                 </div>
             </div>

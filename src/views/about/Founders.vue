@@ -16,7 +16,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - Uzm. Arabulucu
+                        Avukat - Arabulucu
                     </li>
                 </ul>
             </div>
@@ -35,7 +35,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - Uzm. Arabulucu
+                        Avukat - Arabulucu
                     </li>
                 </ul>
             </div>
@@ -56,7 +56,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - Uzm. Arabulucu
+                        Avukat - Arabulucu
                     </li>
                 </ul>
             </div>
@@ -65,9 +65,9 @@
 
     <div class="col-12 col-md-4 mt-1">
         <div class="card">
-            <img class="card-img-bottom" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1524292431/edagunday.jpg'" alt="Card image cap">
+            <img class="card-img-bottom" v-lazy="'https://res.cloudinary.com/dsorofyhl/image/upload/v1588365827/hikmet-can.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
-                <h5 class="card-title">A. Eda Günday</h5>
+                <h5 class="card-title">Hikmet Can Kuruoğlu</h5>
                 <hr>
                 
                 <ul class="list-group">
@@ -75,7 +75,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - Uzm. Arabulucu
+                        Avukat - Arabulucu
                     </li>
                 </ul>
             </div>
@@ -94,7 +94,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - Uzm. Arabulucu
+                        Avukat - Arabulucu
                     </li>
                 </ul>
             </div>
@@ -113,7 +113,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - Uzm. Arabulucu
+                        Avukat - Arabulucu
                     </li>
                 </ul>
             </div>
@@ -133,7 +133,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - Uzm. Arabulucu
+                        Avukat - Arabulucu
                     </li>
                 </ul>
             </div>
@@ -152,7 +152,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - Uzm. Arabulucu
+                        Avukat - Arabulucu
                     </li>
                 </ul>
             </div>
@@ -171,7 +171,7 @@
                         Ankara Ünv. Hukuk Fak.
                     </li>
                     <li class="list-group-item">
-                        Avukat - Uzm. Arabulucu
+                        Avukat - Arabulucu
                     </li>
                 </ul>
             </div>

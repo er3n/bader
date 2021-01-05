@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@prerenderer/renderer-jsdom": "^0.1.4",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.0.0",
     "vue": "^2.5.13",
     "vue-awesome": "^2.3.4",

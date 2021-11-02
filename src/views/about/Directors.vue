@@ -57,9 +57,9 @@
 
     <div class="col-12 col-md-4 mt-1">
         <div class="card">
-            <img class="card-img-bottom" v-lazy="'https://res.cloudinary.com/dsorofyhl/image/upload/v1588365827/hikmet-can.jpg'" alt="Card image cap">
+            <img class="card-img-bottom" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1635880012/meltemtemurer.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
-                <h5 class="card-title">Hikmet Can Kuruoğlu</h5>
+                <h5 class="card-title">Meltem Temurer</h5>
                 <hr>
                 
                 <ul class="list-group">
@@ -79,10 +79,9 @@
 
     <div class="col-12 col-md-4 mt-1">
         <div class="card">
-            <img class="card-img-bottom" v-lazy="'https://res.cloudinary.com/dwxj5ta2q/image/upload/v1524292433/minebas.png'" alt="Card image cap">
+           <img class="card-img-bottom" v-lazy="'https://res.cloudinary.com/dsorofyhl/image/upload/v1588365827/hikmet-can.jpg'" alt="Card image cap">
             <div class="card-body mx-auto">
-                <h5 class="card-title">Mine Baş</h5>
-                <footer  style="font-size: 10px;" >minebas@bagimsizarabuluculardernegi.org</footer>
+                <h5 class="card-title">Hikmet Can Kuruoğlu</h5>
                 <hr>
                 
                 <ul class="list-group">

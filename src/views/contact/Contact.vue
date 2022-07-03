@@ -14,6 +14,7 @@
         <div class="container mt-5">
         <ul class="list-group">
             <li class="list-group-item"><icon name="phone"></icon> 
+                <br />
                 0312 474 1 333 (pbx)
                 <br /> 
                 0312 474 1 444
@@ -21,6 +22,7 @@
                 0312 474 1 555
             </li>
             <li class="list-group-item"><icon name="map-marker"></icon> 
+            <br />
             Oğuzlar Mahallesi Çetin Emeç Bulvarı <strong>No.</strong> 60/7
             <br />
             <strong> Çankaya / ANKARA </strong>

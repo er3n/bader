@@ -19,7 +19,7 @@
                 <br /> 
                 0312 474 1 444
                 <br />
-                0312 474 1 555
+                Fax: 0312 474 1 555
             </li>
             <li class="list-group-item"><icon name="map-marker"></icon> 
             <br />
